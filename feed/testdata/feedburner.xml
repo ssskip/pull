@@ -1,0 +1,2052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+
+    <channel>
+        <title>CSS Weekly</title>
+
+        <link>http://css-weekly.com</link>
+        <description>Weekly e-mail roundup of latest CSS articles, tutorials, tools and experiments</description>
+        <lastBuildDate>Fri, 11 Sep 2015 12:02:22 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>http://wordpress.org/?v=4.2.4</generator>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml"
+                     href="http://feeds.feedburner.com/CSS-Weekly"/>
+        <feedburner:info uri="css-weekly"/>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+        <item>
+            <title>Issue #179</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/OPLgpgso2Vs/</link>
+            <pubDate>Tue, 08 Sep 2015 15:03:19 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-179/</guid>
+            <description>
+                <![CDATA[Learn how to create arbitrarily-shaped UI components using CSS properties and SVG’s capabilities, how to enhance performance using prefetching, preloading &amp; prebrowsing, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://blogs.adobe.com/dreamweaver/2015/09/css-vs-svg-shapes-and-arbitrarily-shaped-ui-components.html?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS vs. SVG: Shapes and Arbitrarily-Shaped UI Components</a></h2>
+													</header>
+						<a href="http://blogs.adobe.com/dreamweaver/2015/09/css-vs-svg-shapes-and-arbitrarily-shaped-ui-components.html?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/09/css-vs-svg-shapes-and-arbitrarily-shaped-ui-components.jpg" alt="CSS vs. SVG: Shapes and Arbitrarily-Shaped UI Components" /></a>
+						<p>Sara Soueidan goes over techniques for creating arbitrarily-shaped UI components using CSS properties and SVG’s capabilities, and a mix of both!</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://jakearchibald.com/2015/anatomy-of-responsive-images/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">The Anatomy of Responsive Images</a></h2>
+													</header>
+						<a href="https://jakearchibald.com/2015/anatomy-of-responsive-images/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/09/anatomy-of-responsive-images.jpg" alt="The Anatomy of Responsive Images" /></a>
+						<p>Jake Archibald gives a nice visual overview of how exactly responsive images work.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://css-weekly.com/advertise" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssw-learn-to-design-bundle">Learn to Design 2015 Course Bundle </a></h2>
+													</header>
+						<a href="http://bit.ly/cssw-learn-to-design-bundle"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/09/learn-to-design-2015-course-bundle.jpg" alt="Learn to Design 2015 Course Bundle " /></a>
+						<p>Learn. Imagine. Design. This amazing bundle contains 8 courses that cover everything from creating prototypes with interactions and transitions, to designing beautiful &amp; user-friendly websites and creating stunning pixel art graphics for video games.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/prefetching-preloading-prebrowsing/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Prefetching, Preloading, Prebrowsing</a></h2>
+													</header>
+						<p>Robin Rendle explains how to improve the user experience in a noticeable way by using some performance enhancing techniques.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://www.rachelandrew.co.uk/archives/2015/09/02/css-grid-and-the-box-alignment-module/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS Grid and The Box Alignment Module</a></h2>
+													</header>
+						<p>Rachel Andrew takes a quick look at how Flexbox properties work with Grid Layout.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://medium.com/design-optimizely/diving-deep-into-svg-animations-1e8c1b759b85?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Diving Deep into SVG Animations</a></h2>
+													</header>
+						<p>Daniel O’Connor shares his story of the trial and error of creating SVG animations.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/gulp-for-beginners/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Gulp for Beginners</a></h2>
+													</header>
+						<p>An excellent introduction into Gulp (you are using it, aren’t you?) by Zell Liew.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Jobs</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssw-booking-1">UX Designer (HTML/CSS) at Booking.com</a></h2>
+													</header>
+						<a href="http://bit.ly/cssw-booking-1"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/09/booking-cssweekly.jpg" alt="UX Designer (HTML/CSS) at Booking.com" /></a>
+						<p>Booking,com is looking for the world’s smartest designers. As a member of our Front End team you’ll be given the freedom to make meaningful and measurable improvements impacting millions of people. You’ll join us at our beautiful Amsterdam HQ and work with some of our industry’s smartest people.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://dev.modern.ie/tools/vms/mac/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">IE Virtual Machines</a></h2>
+													</header>
+						<p>Test versions of IE from 6 through 11 and Microsoft Edge using virtual machines you download and manage locally.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://t4t5.github.io/sweetalert/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Sweet Alert</a></h2>
+													</header>
+						<p>A beautiful, highly customizable replacement for JavaScript&#8217;s “Alert” dialog.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codepen.io/rocbear/pen/ojXLjV?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS UFO</a></h2>
+													</header>
+						<a href="http://codepen.io/rocbear/pen/ojXLjV?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/09/css-ufo.jpg" alt="CSS UFO" /></a>
+						<p>Ross B. played around with orbiting dynamics using transform, transform-origin, and backface-visibility. The result is pretty great.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you so much!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/OPLgpgso2Vs" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-179/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #178</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/X2WDlbQNPgY/</link>
+            <pubDate>Tue, 01 Sep 2015 15:13:37 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-178/</guid>
+            <description>
+                <![CDATA[Find out how CSS Grid Layout works, how to style checkboxes and radio buttons with CSS and SVG, how to create and bring to life rounded shapes and circles using CSS animations, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://medium.com/@patrickbrosset/css-grid-layout-6c9cba6e8a5a?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">The Future of Layout with CSS: Grid Layouts </a></h2>
+													</header>
+						<a href="https://medium.com/@patrickbrosset/css-grid-layout-6c9cba6e8a5a?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/09/the-future-of-layout-with-css-grid-layouts.jpg" alt="The Future of Layout with CSS: Grid Layouts " /></a>
+						<p>Patrick Brosset looks at the wonderful world of the CSS Grid Layout, a relatively new W3C specification that has partially started to see the day in some browsers.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://blogs.adobe.com/dreamweaver/2015/08/css-vs-svg-styling-checkboxes-and-radio-buttons.html?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS vs SVG: Styling Checkboxes and Radio Buttons</a></h2>
+													</header>
+						<a href="https://blogs.adobe.com/dreamweaver/2015/08/css-vs-svg-styling-checkboxes-and-radio-buttons.html?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/09/css-vs-svg-styling-checkboxes-and-radio-buttons.jpg" alt="CSS vs SVG: Styling Checkboxes and Radio Buttons" /></a>
+						<p>Sara Soueidan tackles custom HTML form styling—specifically checkbox and radio inputs.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://css-weekly.com/advertise" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/an-event-apart-0915">Set Yourself Apart</a></h2>
+													</header>
+						<a href="http://bit.ly/an-event-apart-0915"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/09/an-event-apart.png" alt="Set Yourself Apart" /></a>
+						<p>Master your craft at the conference for people who make websites. An Event Apart is the web design and development conference where groundbreaking techniques break first. It’s where mission-critical techniques are mastered, and new ideas become industry-wide best practices.</p>
+<p><a style="text-decoration: underline;" href="http://bit.ly/an-event-apart-0915" target="_blank">Register now and save $100</a> with discount code AEACSSW.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://cssanimation.rocks/spheres/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Spheres</a></h2>
+													</header>
+						<p>Donovan Hutchinson demonstrates how to create and bring to life rounded shapes and circles using CSS animations.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://medium.com/google-developers/devtools-tips-for-sublime-text-users-cdd559ee80f8?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">DevTools Tips For Sublime Text Users</a></h2>
+													</header>
+						<p>Addy Osmani on how to take advantage of your existing knowledge of features in Sublime Text and apply them to another powerful tool in your arsenal — the Chrome DevTools.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://medium.com/@spaceninja/what-is-flexbox-6aed968555ef?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">What IS Flexbox?</a></h2>
+													</header>
+						<p>Scott Vandehey gives a nice introduction into Flexbox, a layout mode added to CSS to replace hacky float and table layouts.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/tight-fitting-svg-shapes/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Tight Fitting SVG Shapes, the Present and Future</a></h2>
+													</header>
+						<p>In this article, Ana Tudor tackles an interesting problem: what happens when the stroke of an element grows in such a way that it appears cut off?</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://blot.im/typeset/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Type­set.js</a></h2>
+													</header>
+						<p>Typeset is an HTML pre-proces­sor for web ty­pog­ra­phy. It uses no client-side JavaScript but gives you hang­ing punc­tu­a­tion, soft hy­phen in­ser­tion, op­ti­cal mar­gin out­dents, small-caps con­ver­sion and punctuation substitution.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://jquerymy.com/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">jQuerymy.js</a></h2>
+													</header>
+						<p>jQuery.my is a plugin for real-time two-way data binding. It mutates object given as data source, reflecting interactions between user and UI.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://alistapart.com/blog/post/building-to-learn?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Building to Learn</a></h2>
+													</header>
+						<a href="http://alistapart.com/blog/post/building-to-learn?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/09/building-to-learn.jpg" alt="Building to Learn" /></a>
+						<p>Susan Robertson explains why is building something that interests you one of the best ways to learn something new, both on the web and elsewhere in life.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you so much!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/X2WDlbQNPgY" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-178/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #177</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/tRNf2qLLmnw/</link>
+            <pubDate>Tue, 25 Aug 2015 13:32:00 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-177/</guid>
+            <description>
+                <![CDATA[Find out why you should refactor your CSS, what CSS Modules is, how to create charts with CSS, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://seesparkbox.com/foundry/why_you_need_to_refactor_your_css?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Why You Need to Refactor Your CSS</a></h2>
+													</header>
+						<a href="http://seesparkbox.com/foundry/why_you_need_to_refactor_your_css?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/why-you-need-to-refactor-your-css.jpg" alt="Why You Need to Refactor Your CSS" /></a>
+						<p>Nathan Rambeck on why you should regularly refactor your CSS.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://glenmaddern.com/articles/css-modules?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS Modules</a></h2>
+													</header>
+						<a href="http://glenmaddern.com/articles/css-modules?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/css-modules.jpg" alt="CSS Modules" /></a>
+						<p>Glen Maddern explains what CSS Modules is, and why it’s the future.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://css-weekly.com/advertise" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssw-xcode-for-designers">Xcode for Designers: Create iOS Apps in 5 Days</a></h2>
+													</header>
+						<a href="http://bit.ly/cssw-xcode-for-designers"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/03/xcode-for-designers.jpg" alt="Xcode for Designers: Create iOS Apps in 5 Days" /></a>
+						<p>Through 25 video lessons, you will learn how to master Xcode and start creating native iOS apps. You&#8217;ll learn the ins and outs of Xcode 6&#8217;s interface, as well as everything from variables to strings to functions.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.smashingmagazine.com/2015/08/from-russia-with-love-behind-the-scenes-of-the-kremlin-ru-responsive-redesign/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">From Russia With Love: Behind The Responsive Redesign Of Kremlin.ru</a></h2>
+													</header>
+						<p>Insights behind the responsive redesign of Kremlin.ru, the challenges and constraints, creative front-end solutions, unusual budgets and stakeholders.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://viget.com/extend/the-font-face-dilemma?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">The @font-face Dilemma</a></h2>
+													</header>
+						<p>Chris Manning goes over @font-face and how it can be problematic, different ways to improve font loading performance and the prospects for better font loading in the near future.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/making-charts-with-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Making Charts with CSS</a></h2>
+													</header>
+						<p>Robin Rendle looks at plain CSS methods for styling data.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.webdesignerdepot.com/2015/08/the-state-of-responsive-images/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">The State of Responsive Images in 2015</a></h2>
+													</header>
+						<p>Paddi MacDonnell looks at the current state of responsive images, explains what works, where the problems and pitfalls still lie, and how you can use responsive images today.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://joshnh.com/weblog/getting-responsive-tables-to-behave/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Getting Responsive Tables to Behave</a></h2>
+													</header>
+						<p>Joshua Hibbert shares another useful solution for responsive tables.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://brightbrightgreat.com/2015/08/11/how-to-8-bit-hovers/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">How-To: 8-Bit Hovers</a></h2>
+													</header>
+						<p>Tiffany Stoik explains how to create interesting 8-bit inspired, playful hover effects.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://verlok.github.io/lazyload/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">LazyLoad</a></h2>
+													</header>
+						<p>LazyLoad is a fast, lightweight and flexible script for loading images only when they’re about to enter the viewport of a scrollable area.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://shaundon.github.io/simple-notifications/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Simple Notifications</a></h2>
+													</header>
+						<p>A very lightweight, customizable notifications utility with zero external dependencies.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codepen.io/rgg/pen/rVgBEL?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Pure CSS Bars</a></h2>
+													</header>
+						<a href="http://codepen.io/rgg/pen/rVgBEL?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/pure-css-bars.jpg" alt="Pure CSS Bars" /></a>
+						<p>Rafael González created beautiful CSS Bars you can actually use in your projects.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you so much!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/tRNf2qLLmnw" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-177/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #176</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/pJIlCaP06Ok/</link>
+            <pubDate>Tue, 18 Aug 2015 17:12:37 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-176/</guid>
+            <description>
+                <![CDATA[Learn how to recreate a basic interface with Flexbox, how to build a circular menu using CSS Clip Paths, how to speed up the rendering of your website using critical CSS, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Laying Out A Flexible Future For Web Design With Flexbox</a></h2>
+													</header>
+						<a href="http://www.smashingmagazine.com/2015/08/flexible-future-for-web-design-with-flexbox/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/flexible-future-for-web-design-with-flexbox.jpg" alt="Laying Out A Flexible Future For Web Design With Flexbox" /></a>
+						<p>Ben Gremillion shows how to create a basic user interface using flexbox.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/building-a-circular-navigation-with-css-clip-paths/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Building A Circular Navigation with CSS Clip Paths</a></h2>
+													</header>
+						<a href="https://css-tricks.com/building-a-circular-navigation-with-css-clip-paths/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/building-a-circular-navigation-with-css-clip-paths.jpg" alt="Building A Circular Navigation with CSS Clip Paths" /></a>
+						<p>Sara Soueidan explains how to build a circular menu using CSS Clip Paths.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://css-weekly.com/advertise" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssw-greensock-workshop">Learn How to Animate like a pro with Greensock</a></h2>
+													</header>
+						<a href="http://bit.ly/cssw-greensock-workshop"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/greensock-workshop.jpg" alt="Learn How to Animate like a pro with Greensock" /></a>
+						<p>If you’re a developer who eagerly wants to learn how to master the fascinating animation platform, GreenSock – and thereby become the web animation superstar you secretly fantasize about being – then this is the workshop for you!</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.smashingmagazine.com/2015/08/understanding-critical-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Understanding Critical CSS</a></h2>
+													</header>
+						<p>You can speed up the rendering of your website using critical CSS. Dean Hume shows how to use Grunt/Gulp tasks to identify critical CSS and inline it in the head of your pages.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://medium.com/@dte/understanding-css-selector-specificity-a02238a02a59?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Understanding CSS: Selector Specificity</a></h2>
+													</header>
+						<p>Daniel Eden explains how CSS specificity works and shares some advice on keeping your CSS specificity low.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/strategies-for-cache-busting-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Strategies for Cache-Busting CSS</a></h2>
+													</header>
+						<p>Chris Coyier goes over different ways of cache-busting CSS.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://medium.com/@ddprrt/deconfusing-pre-and-post-processing-d68e3bd078a3?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Deconfusing Pre- and Post-processing</a></h2>
+													</header>
+						<p>“Pre-processors” and “post-processors” don’t exist. They are CSS processors, taking care of both authoring and optimisation features.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://deep.design/the-hamburger-menu/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">The Hamburger Menu Doesn&#039;t Work</a></h2>
+													</header>
+						<p>James Archer explains in detail why hamburger menus don&#8217;t work and demonstrates a couple of better alternatives.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Jobs</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssw-onetaste-1">Senior Web Developer at OneTaste</a></h2>
+													</header>
+						<a href="http://bit.ly/cssw-onetaste-1"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/08/cssw-onetaste.jpg" alt="Senior Web Developer at OneTaste" /></a>
+						<p>OneTaste&#8217;s mission is to bring Orgasm to One Billion people! We are looking for a Web developer to help create and manage a world class website for our organization. Strong knowledge of CSS3 &amp; HTML5. See our Jobs Page for full job description onetaste.us/jobs/ and apply online.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://github.com/lucidlemon/paradeiser?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Paradeiser</a></h2>
+													</header>
+						<p>Paradeiser is small and sleek mobile navigation script (a good alternative to the hamburger menu).</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://cssnano.co/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS Nano</a></h2>
+													</header>
+						<p>CSS Nano is a modular CSS minifier, composed of single-responsibility PostCSS plugins.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codyhouse.co/gem/animated-svg-hero-slider/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Animated SVG Hero Slider</a></h2>
+													</header>
+						<a href="http://codyhouse.co/gem/animated-svg-hero-slider/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/animated-svg-hero-slider.jpg" alt="Animated SVG Hero Slider" /></a>
+						<p>Claudia Romano created an amazing full page slider, with animated SVG elements used as transition effects.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you so much!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/pJIlCaP06Ok" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-176/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #175</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/7DkVeIeaZtM/</link>
+            <pubDate>Tue, 11 Aug 2015 13:49:39 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-175/</guid>
+            <description>
+                <![CDATA[Learn how to debug CSS Keyframe Animations, how to add further meaning and information to the BEM naming convention, how can CSS Modules help you emulate local scope and control dependencies in front-end components, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/debugging-css-keyframe-animations/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Debugging CSS Keyframe Animations</a></h2>
+													</header>
+						<a href="https://css-tricks.com/debugging-css-keyframe-animations/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/debugging-css-keyframe-animations.jpg" alt="Debugging CSS Keyframe Animations" /></a>
+						<p>Sarah Drasner explains in detail how to effectively debug CSS Keyframe Animations.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">BEMIT: Taking the BEM Naming Convention a Step Further</a></h2>
+													</header>
+						<a href="http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/bemit-taking-the-bem-naming-convention-a-step-further.jpg" alt="BEMIT: Taking the BEM Naming Convention a Step Further" /></a>
+						<p>Harry Roberts explains how to add further meaning and information to the BEM naming convention.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://css-weekly.com/advertise" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssw-user-engagement-course">User Engagement Design Course</a></h2>
+													</header>
+						<a href="http://bit.ly/cssw-user-engagement-course"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/the-ultimate-course-to-increase-user-engagement.jpg" alt="User Engagement Design Course" /></a>
+						<p>This engaging course will teach you about people, how they think, decide, remember and what motivates them to take action and increase your conversion.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://hacks.mozilla.org/2015/08/making-and-breaking-the-web-with-css-gradients/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Making and Breaking the Web With CSS Gradients</a></h2>
+													</header>
+						<p>Are you checking your stylesheets for outdated (gradient) syntax and making sure you have an unprefixed modern equivalent on a regular basis? Well, you should.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://iamvdo.me/en/blog/advanced-css-filters?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Advanced CSS Filters</a></h2>
+													</header>
+						<p>Vincent De Oliveira introduces <em>backdrop-filter</em> CSS property, which applies filters to the backdrop of an element, not to its background.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://x-team.com/2015/08/css-modules-a-new-way-to-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS Modules: Why This Is the Most Significant Improvement to CSS in Years</a></h2>
+													</header>
+						<p>Josh Johnston explains how can css-modules help you emulate local scope and control dependencies in front-end components.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://fourword.fourkitchens.com/article/use-gulp-automate-your-critical-path-css?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Use Gulp to Automate Your Critical Path CSS</a></h2>
+													</header>
+						<p>Chris Ruppel shows how to use Gulp to automate the process of generating your critical path CSS.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.bramstein.com/writing/preload-hints-for-web-fonts.html?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Preload Hints For Web Fonts</a></h2>
+													</header>
+						<p>Bram Stein explains how will pre­load hints im­prove web font per­for­mance (when browsers start supporting them).</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Jobs</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssw-onetaste-1">Senior Web Developer at OneTaste</a></h2>
+													</header>
+						<a href="http://bit.ly/cssw-onetaste-1"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/08/cssw-onetaste.jpg" alt="Senior Web Developer at OneTaste" /></a>
+						<p>OneTaste&#8217;s mission is to bring Orgasm to One Billion people! We are looking for a Web developer to help create and manage a world class website for our organization. Strong knowledge of CSS3 &amp; HTML5. See our Jobs Page for full job description <a href="http://bit.ly/cssw-onetaste-1" target="_blank">onetaste.us/jobs/</a> and apply online.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://github.com/morishitter/cssfmt?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSSfmt</a></h2>
+													</header>
+						<p>CSSfmt is a tool that automatically formats CSS source code.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://leaverou.github.io/stretchy/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Stretchy</a></h2>
+													</header>
+						<p>Stretchy is a small, standalone library that handles form element autosizing.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codepen.io/thebabydino/pen/oXVbmB/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS Cubes and Pyramids</a></h2>
+													</header>
+						<a href="http://codepen.io/thebabydino/pen/oXVbmB/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/css-cubes-and-pyramids.jpg" alt="CSS Cubes and Pyramids" /></a>
+						<p>Ana Tudor created another impressive CSS animation that you absolutely must see.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you so much!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/7DkVeIeaZtM" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-175/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #174</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/BeY63iWNaSs/</link>
+            <pubDate>Tue, 04 Aug 2015 17:18:48 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-174/</guid>
+            <description>
+                <![CDATA[Learn how to design pie charts with CSS, how to create graphical text effects using CSS and SVG, how to eliminate the unused CSS from your frameworks, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Designing Flexible, Maintainable Pie Charts With CSS and SVG</a></h2>
+													</header>
+						<a href="http://www.smashingmagazine.com/2015/07/designing-simple-pie-charts-with-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/designing-simple-pie-charts-with-css2.jpg" alt="Designing Flexible, Maintainable Pie Charts With CSS and SVG" /></a>
+						<p>Lea Verou shows how to design flexible and maintainable pie charts with CSS.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://blogs.adobe.com/dreamweaver/2015/07/css-vs-svg-graphical-text.html?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS vs. SVG: Graphical Text Effects</a></h2>
+													</header>
+						<a href="http://blogs.adobe.com/dreamweaver/2015/07/css-vs-svg-graphical-text.html?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/css-vs-svg-graphical-text.jpg" alt="CSS vs. SVG: Graphical Text Effects" /></a>
+						<p>Sara Soueidan goes over a few techniques for creating graphical text effects using CSS and SVG.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://css-weekly.com/advertise" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://aneventapart.com/landing/cssweekly">An Event Apart</a></h2>
+													</header>
+						<a href="http://aneventapart.com/landing/cssweekly"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/02/an-event-apart.png" alt="An Event Apart" /></a>
+						<p>Master your craft with three days of design, code, and content. An Event Apart is the web design and development conference where groundbreaking techniques break first. Watch <a style="text-decoration: underline;" href="http://aneventapart.com/news/tag/video?utm_source=CSS-Weekly&amp;utm_campaign=Issue-170&amp;utm_medium=web" target="_blank">25+ hours of free talks online</a>, and <a style="text-decoration: underline;" href="http://aneventapart.com/cssweekly" target="_blank">register now</a> to save $100 with discount code <strong>AEACSSW</strong>.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://www.rachelandrew.co.uk/archives/2015/07/28/modern-css-layout-power-and-responsibility/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Modern CSS Layout, Power and Responsibility</a></h2>
+													</header>
+						<p>Rachel Andrew shares some thoughts on modern CSS layouts. (New layout tools may actually cause as many problems as they solve.)</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.smashingmagazine.com/2015/07/constructing-css-quantity-queries-on-the-fly/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Constructing CSS Quantity Queries On The Fly</a></h2>
+													</header>
+						<p>You want to build a dynamic CSS module and style items based on the count of siblings? CSS quantity queries solve just that—now with a tool to generate CSS.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://fourword.fourkitchens.com/article/use-gulp-and-uncss-slim-down-your-css-framework?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Use Gulp and UnCSS to slim down your CSS framework</a></h2>
+													</header>
+						<p>Chris Ruppel on how to eliminate the unused CSS from your frameworks.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://articles.dappergentlemen.com/2015/07/24/postcss/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Is PostCSS a Game Changer?</a></h2>
+													</header>
+						<p>PostCSS is gaining some serious traction. As such, it has an ever-growing, pleasantly plump plethora of plugins. If you&#8217;re not familiar with it, you should read this.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://gist.github.com/bobbygrace/9e961e8982f42eb91b80?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Trello CSS Guide</a></h2>
+													</header>
+						<p>Trello’s CSS guide provides some architecture for writing clean and maintainable CSS.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://leaverou.github.io/conic-gradient/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS conic-gradient() Polyfill</a></h2>
+													</header>
+						<p>A polyfill that lets you experiment with CSS conic-gradients now.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://github.com/bevacqua/dragula?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Dragula</a></h2>
+													</header>
+						<p>Dragula is a simple drag and drop library that has no dependencies and an excellent browser support (IE7+).</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://zurb.com/article/1395/the-i-in-team-eb57c2db-840f-4ecb-881c-bff?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">The 'I' in Team</a></h2>
+													</header>
+						<a href="http://zurb.com/article/1395/the-i-in-team-eb57c2db-840f-4ecb-881c-bff?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/08/the-i-in-team.jpg" alt="The 'I' in Team" /></a>
+						<p>Shawna Moser shares a few of the simple ideas that can help you become a valuable member of any team you join.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you so much!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/BeY63iWNaSs" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-174/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #173</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/adZS0ZSHilo/</link>
+            <pubDate>Tue, 28 Jul 2015 13:26:32 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-173/</guid>
+            <description>
+                <![CDATA[Find out why you should add PostCSS to your workflow, how to to create sticky elements with pure CSS, how exactly em and rem units work, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://ashleynolan.co.uk/blog/postcss-a-review?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">PostCSS – Sass Killer or Preprocessing Pretender?</a></h2>
+													</header>
+						<a href="http://ashleynolan.co.uk/blog/postcss-a-review?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/postcss-a-review.jpg" alt="PostCSS – Sass Killer or Preprocessing Pretender?" /></a>
+						<p>Ashley Nolan gives a comprehensive overview of PostCSS and outlines why it could be a useful tool for you to add to your workflow.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/the-trouble-with-preprocessing-based-on-future-specs/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">The Trouble With Preprocessing Based on Future Specs</a></h2>
+													</header>
+						<a href="https://css-tricks.com/the-trouble-with-preprocessing-based-on-future-specs/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/the-trouble-with-preprocessing-based-on-future-specs.jpg" alt="The Trouble With Preprocessing Based on Future Specs" /></a>
+						<p>Chris Coyier shares a couple of things you should consider if you want to use CSS postprocessors (PostCSS).</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://css-weekly.com/advertise" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssw-vision6">Learn the latest email marketing trends to help grow your business</a></h2>
+													</header>
+						<a href="http://bit.ly/cssw-vision6"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/learn-the-latest-email-marketing-trends.jpg" alt="Learn the latest email marketing trends to help grow your business" /></a>
+						<p>We’ll show you some of the best examples from leading brands who are using email to drive business growth. Learn how they’re using the latest trends including responsive email design, triggered and transactional emails plus much more.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Comprehensive Guide: When to Use Em vs. Rem</a></h2>
+													</header>
+						<a href="http://webdesign.tutsplus.com/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/07/comprehensive-guide-when-to-use-em-vs-rem.jpg" alt="Comprehensive Guide: When to Use Em vs. Rem" /></a>
+						<p>Kezz Bracey explains exactly how <em>em</em> and <em>rem</em> units work, and demonstrates how to best leverage them in your designs.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://demosthenes.info/blog/1052/position-sticky-scroll-to-top-then-fixed-in-pure-CSS?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Position Sticky: Scroll-to-top-then-fixed in Pure CSS</a></h2>
+													</header>
+						<a href="http://demosthenes.info/blog/1052/position-sticky-scroll-to-top-then-fixed-in-pure-CSS?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/07/position-sticky-scroll-to-top-then-fixed-in-pure-css.jpg" alt="Position Sticky: Scroll-to-top-then-fixed in Pure CSS" /></a>
+						<p>Dudley Storey shows how to create ’sticky’ elements with pure CSS. (Unfortunately, browser support isn&#8217;t great at the moment.)</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://blog.colepeters.com/some-things-ive-learned-about-css-so-far/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Some Things I’ve Learned about CSS so Far </a></h2>
+													</header>
+						<p>Cole Peters shares some CSS-related tips that you might found both valuable and practical.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://web-design-weekly.com/2015/07/21/creating-better-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Creating Better CSS </a></h2>
+													</header>
+						<p>Good CSS requires a good foundation, some well thought-out coding principles and a selection of tools to keep you on the right track.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://blog.teamtreehouse.com/css-scroll-snap-points?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Thinking Ahead: CSS Scroll Snap Points</a></h2>
+													</header>
+						<p>Guil Hernandez gives a nice introduction into scroll snap points, a feature that gives users a fluid and precise scrolling experience for touch and input devices.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">The Web We Have to Save</a></h2>
+													</header>
+						<a href="https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/the-web-we-have-to-save.jpg" alt="The Web We Have to Save" /></a>
+						<p>The rich, diverse, and free web that we love might be dying. (An excellent essay on the past and future of the web by Hossein Derakhshan.)</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/adZS0ZSHilo" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-173/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #172</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/Bh3qPWagPac/</link>
+            <pubDate>Tue, 21 Jul 2015 16:59:44 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-172/</guid>
+            <description>
+                <![CDATA[ Find out what PostCSS is, how to use quantity ordering with pure CSS, how to style the contents of the SVG &lt;use&gt; element, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://davidtheclark.com/its-time-for-everyone-to-learn-about-postcss/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">It's Time for Everyone to Learn About PostCSS</a></h2>
+													</header>
+						<a href="http://davidtheclark.com/its-time-for-everyone-to-learn-about-postcss/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/its-time-for-everyone-to-learn-about-postcss2.jpg" alt="It's Time for Everyone to Learn About PostCSS" /></a>
+						<p>If you’re writing CSS, you should learn what PostCSS is, what it really does, and what it can be used for.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.smashingmagazine.com/2015/07/14/quantity-ordering-with-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Quantity Ordering With CSS</a></h2>
+													</header>
+						<a href="http://www.smashingmagazine.com/2015/07/14/quantity-ordering-with-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/quantity-ordering-with-css.jpg" alt="Quantity Ordering With CSS" /></a>
+						<p>The flexbox specification contains properties that enable us to modify markup in new ways. Drew Minns explains how to use quantity ordering with pure CSS.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://css-weekly.com/advertise" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.mightydeals.com/deal/smashing-web-graphics-ebook-bundle.html?refID=39b204">Smashing Web & Graphics eBook Bundle: 7 eBooks for only $18!</a></h2>
+													</header>
+						<a href="http://www.mightydeals.com/deal/smashing-web-graphics-ebook-bundle.html?refID=39b204"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/smashing-web-graphics-ebook-bundle1.jpg" alt="Smashing Web & Graphics eBook Bundle: 7 eBooks for only $18!" /></a>
+						<p>This bundle of 7 popular eBooks covers some serious design ground including the fundamentals of HTML5, CSS3 and JavaScript, as well as mastering such huge Adobe programs as Photoshop, Illustrator, and Fireworks.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Styling SVG &lt;use&gt; Content with CSS</a></h2>
+													</header>
+						<a href="http://tympanus.net/codrops/2015/07/16/styling-svg-use-content-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/07/styling-svg-use-content-css.jpg" alt="Styling SVG &lt;use&gt; Content with CSS" /></a>
+						<p>An in-depth article Sara Soueidan on how to style the contents of the SVG &lt;use&gt; element and overcome some challenges it brings.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/print-stylesheet-approaches-blacklist-vs-whitelist/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Print Stylesheet Approaches: Blacklist vs Whitelist</a></h2>
+													</header>
+						<a href="https://css-tricks.com/print-stylesheet-approaches-blacklist-vs-whitelist/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/07/print-stylesheet-approaches-blacklist-vs-whitelist.jpg" alt="Print Stylesheet Approaches: Blacklist vs Whitelist" /></a>
+						<p>Chris Coyier discusses the advantages and disadvantages of different approaches to print stylesheets.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://subvisual.co/blog/posts/62-perfecting-a-css-3d-animation?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Perfecting a CSS 3D Animation</a></h2>
+													</header>
+						<p>Miguel Palhas shares a couple of good CSS animation tips &amp; tricks while explaining how his 3D animated atom experiment works.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://furbo.org/2015/07/09/i-left-my-system-fonts-in-san-francisco/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">I Left My System Fonts in San Francisco</a></h2>
+													</header>
+						<p>Craig Hockenberry on using system font in the new version of OS X (new <em>-apple-system</em> font family).</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://alistapart.com/article/performance-showing-versus-telling?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Performance: Showing Versus Telling</a></h2>
+													</header>
+						<p>The most challenging part of performance optimization, writes Lara Hogan, is getting other people to care about it.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://stylelint.io/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Stylelint</a></h2>
+													</header>
+						<p>Modern CSS linter. Supports the latest CSS syntax and features, including custom properties, range media features and calc().</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://tobiasahlin.com/spinkit/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">SpinKit</a></h2>
+													</header>
+						<p>A really nice collection of loading indicators animated with CSS.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codepen.io/AngelDE98/pen/mJjxQQ?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Scrolling Prefixes</a></h2>
+													</header>
+						<a href="http://codepen.io/AngelDE98/pen/mJjxQQ?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/scrolling-prefixes.jpg" alt="Scrolling Prefixes" /></a>
+						<p>A very interesting text effect created with a little bit of CSS and JavaScript by Maik Macho.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/Bh3qPWagPac" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-172/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #171</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/vxp4FijWjPY/</link>
+            <pubDate>Tue, 14 Jul 2015 16:51:14 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-171/</guid>
+            <description>
+                <![CDATA[Learn how to provide accessible fallback for SVG graphics, what Atomic OOBEMITSCSS is, how to create more credible animations by applying a little bit of physics to web design, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://sarasoueidan.com/blog/art-directing-svg-object/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Art-Directing an SVG Embedded Using object</a></h2>
+													</header>
+						<a href="http://sarasoueidan.com/blog/art-directing-svg-object/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/art-directing-svg-object.jpg" alt="Art-Directing an SVG Embedded Using object" /></a>
+						<p>A case study of embedding, art-directing and providing accessible fallback for SVG graphics by Sara Soueidan.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.sitepoint.com/atomic-oobemitscss/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Atomic OOBEMITSCSS</a></h2>
+													</header>
+						<a href="http://www.sitepoint.com/atomic-oobemitscss/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/atomic-oobemitscss.jpg" alt="Atomic OOBEMITSCSS" /></a>
+						<p>Una Kravets shares various CSS methodologies used in creating Atomic OOBEMITSCSS.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://css-weekly.com/advertise" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssw-ui-ux-bundle">UI/UX Designer Bundle </a></h2>
+													</header>
+						<a href="http://bit.ly/cssw-ui-ux-bundle"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/ui-ux-designer-bundle.jpg" alt="UI/UX Designer Bundle " /></a>
+						<p>Through 5 video courses, you will learn how to master UX. You’ll learn everything you need to know to delight your users and to increase conversion rates of your designs.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://youtu.be/MXMlTOnZSvo?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Newton Meets CSS</a></h2>
+													</header>
+						<a href="https://youtu.be/MXMlTOnZSvo?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/07/newton-meets-css.jpg" alt="Newton Meets CSS" /></a>
+						<p>Evangelina Ferreira explains how to create smoother and more credible animations by simply applying a little bit of physics to web design.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://www.youtube.com/watch?v=9wHKFO6a4ms?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Exploring CSS Layout Techniques</a></h2>
+													</header>
+						<a href="https://www.youtube.com/watch?v=9wHKFO6a4ms?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/07/exploring-css-layout-techniques.jpg" alt="Exploring CSS Layout Techniques" /></a>
+						<p>Chris Coyier explores different techniques for solving a very interesting  design problem.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://valhead.com/2015/07/09/animation-in-your-style-guide/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Animation In Your Style Guide</a></h2>
+													</header>
+						<p>Val Head on why animation absolutely belongs in your style guides.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://medium.com/@heyjess/css-triangles-how-do-they-work-cca286d09de1?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS Triangles: How do they work?</a></h2>
+													</header>
+						<p>Jess Jones explains how CSS triangles work, and why should you use them in the first place.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://developer.telerik.com/featured/the-webs-cruft-problem/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">The Web’s Cruft Problem</a></h2>
+													</header>
+						<p>TJ VanToll argues that the need to monetize content is causing an overload of cruft that is hurting the web and giving rise to tools like Facebook Instant. Quite an interesting read.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.getmdl.io/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Material Design Lite</a></h2>
+													</header>
+						<p>An implementation of Google&#8217;s Material Design components in vanilla CSS, JS, and HTML.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://github.com/purifycss/purifycss?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">PurifyCSS</a></h2>
+													</header>
+						<p>A tool that detects which CSS classes your app is using and creates a file without the unused CSS.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codepen.io/rgg/pen/dPQmZa?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Pure CSS 3d Perspective Render</a></h2>
+													</header>
+						<a href="http://codepen.io/rgg/pen/dPQmZa?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/pure-css-3d-perspective-render.jpg" alt="Pure CSS 3d Perspective Render" /></a>
+						<p>A beautiful 3d text effect created with pure CSS by Rafael González.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/vxp4FijWjPY" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-171/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #170</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/87J3zqH3YjM/</link>
+            <pubDate>Tue, 07 Jul 2015 17:17:35 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-170/</guid>
+            <description>
+                <![CDATA[Find out what is the current status of element queries, what are the most common ways to make shapes using CSS, how to fix scrolling performance with will-change property, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://alistapart.com/article/container-queries-once-more-unto-the-breach?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Container Queries: Once More Unto the Breach</a></h2>
+													</header>
+						<a href="http://alistapart.com/article/container-queries-once-more-unto-the-breach?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/container-queries-once-more-unto-the-breach.jpg" alt="Container Queries: Once More Unto the Breach" /></a>
+						<p>Tying responsive CSS to viewport sizes can lead to tangled stylesheets—Mat Marquis issues a challenge to find a simpler solution.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/working-with-shapes-in-web-design/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Working with Shapes in Web Design</a></h2>
+													</header>
+						<a href="https://css-tricks.com/working-with-shapes-in-web-design/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/working-with-shapes-in-web-design.jpg" alt="Working with Shapes in Web Design" /></a>
+						<p>Robin Rendle outlines some of the most common ways to make circles, triangles, and polygons using CSS, and jots down the advantages and disadvantages for these methods.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://css-weekly.com/advertise" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://aneventapart.com/landing/cssweekly">An Event Apart</a></h2>
+													</header>
+						<a href="http://aneventapart.com/landing/cssweekly"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/02/an-event-apart.png" alt="An Event Apart" /></a>
+						<p>Master your craft with three days of design, code, and content. An Event Apart is the web design and development conference where groundbreaking techniques break first. Watch <a style="text-decoration: underline;" href="http://aneventapart.com/news/tag/video?utm_source=CSS-Weekly&amp;utm_campaign=Issue-170&amp;utm_medium=web" target="_blank">25+ hours of free talks online</a>, and <a style="text-decoration: underline;" href="http://aneventapart.com/cssweekly" target="_blank">register now</a> to save $100 with discount code <strong>AEACSSW</strong>.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://fourword.fourkitchens.com/article/fix-scrolling-performance-css-will-change-property?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Fix Scrolling Performance with CSS will-change Property </a></h2>
+													</header>
+						<a href="https://fourword.fourkitchens.com/article/fix-scrolling-performance-css-will-change-property?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/07/fix-scrolling-performance-css-will-change-property.jpg" alt="Fix Scrolling Performance with CSS will-change Property " /></a>
+						<p>Chris Ruppel explains how to improve performance of pages that use <i>background-attachment: fixed;</i>.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://blog.gospodarets.com/css-scroll-snap/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Native CSS Scroll Snap Points </a></h2>
+													</header>
+						<a href="http://blog.gospodarets.com/css-scroll-snap/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/07/css-scroll-snap.jpg" alt="Native CSS Scroll Snap Points " /></a>
+						<p>Sergey Gospodarets gives an overview of the scroll-snap CSS property, which is already implemented in many next versions of browsers.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/what-a-css-code-review-might-look-like/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">What a CSS Code Review Might Look Like</a></h2>
+													</header>
+						<p>Geoff Graham on how can code reviews help you release code into the wild with confidence.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://ashleynolan.co.uk/blog/a-guide-to-front-end-interviews?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">A Guide to the Front-End Interview Process</a></h2>
+													</header>
+						<p>A brief guide for anyone preparing to interview for roles related to front-end development.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://www.youtube.com/watch?v=09_8edPAsR8?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Complex Responsive Animations </a></h2>
+													</header>
+						<p>Trying to perfect UI animations against the moving target of a responsive layout? Sarah Drasner has got some tips on how to balance these complementary concerns.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Jobs</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssweekly-pusher">Front End Developer at Pusher</a></h2>
+													</header>
+						<a href="http://bit.ly/cssweekly-pusher"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/07/cssweekly-pusher.jpg" alt="Front End Developer at Pusher" /></a>
+						<p>Do you want to design something that makes developers&#8217; lives better? Pusher is all about helping developers, and our website and dashboard is key to our success. We’re looking for a designer-developer who believes that design can make a meaningful difference and cares about how it is implemented.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://khan.github.io/tota11y/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Tota11y </a></h2>
+													</header>
+						<p>Tota11y is an accessibility visualization toolkit that helps visualize how your site performs with assistive technologies.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://vodkabears.github.io/remodal/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Remodal</a></h2>
+													</header>
+						<p>Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codepen.io/chrisgannon/details/NqyWOw/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">SVG Flying Saucer</a></h2>
+													</header>
+						<a href="http://codepen.io/chrisgannon/details/NqyWOw/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/07/svg-flying-saucer.jpg" alt="SVG Flying Saucer" /></a>
+						<p>Chris Gannon created an ultimate SVG proof that UFOs exist, and that they actually really love cows.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/87J3zqH3YjM" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-170/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #169</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/9Bop6-cPN_8/</link>
+            <pubDate>Tue, 30 Jun 2015 14:20:57 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-169/</guid>
+            <description>
+                <![CDATA[Find out how your CSS impacts page performance, how to make a realistic text effect with a tilt-shift blur using CSS, what the future of CSS might look like, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://www.youtube.com/watch?v=WAj1yjL7btA?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Performance Beyond the Page Load </a></h2>
+													</header>
+						<a href="https://www.youtube.com/watch?v=WAj1yjL7btA?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/performance-beyond-the-page-load.jpg" alt="Performance Beyond the Page Load " /></a>
+						<p>In this talk Ryan Seddon explains in detail how your CSS impacts page performance and how  to diagnose performance issues.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://blogs.adobe.com/dreamweaver/2015/06/creating-realistic-text-with-css.html?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Creating Realistic Text with CSS</a></h2>
+													</header>
+						<a href="http://blogs.adobe.com/dreamweaver/2015/06/creating-realistic-text-with-css.html?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/creating-realistic-text-with-css.jpg" alt="Creating Realistic Text with CSS" /></a>
+						<p>Lucas Bebber shows how to make a realistic text effect with a tilt-shift blur, using CSS and JavaScript.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://synd.co/11wvL9t" target="_blank_">From Our Sponsor <small style="text-decoration:underline;">(via Syndicate)</small></a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://synd.co/1eMTSas">See how your Visitors are really using your Website...</a></h2>
+													</header>
+						<a href="http://synd.co/1eMTSas"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/see-how-your-visitors-are-really-using-your-website.jpg" alt="See how your Visitors are really using your Website..." /></a>
+						<p>Hotjar is a new and affordable way to improve your site UX and conversion rate by using Heatmaps, Visitor Recordings, Funnel and Form Analysis, Polls and Surveys… all in one central interface.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://glenmaddern.com/articles/interoperable-css?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Interoperable CSS: A CSS Standard for the Loader Age</a></h2>
+													</header>
+						<a href="http://glenmaddern.com/articles/interoperable-css?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/06/interoperable-css.jpg" alt="Interoperable CSS: A CSS Standard for the Loader Age" /></a>
+						<p>Glen Maddern gives an interesting look at what the future of CSS might look like.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.creativebloq.com/web-design/discover-power-svg-61515291?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Discover the Power of SVG </a></h2>
+													</header>
+						<a href="http://www.creativebloq.com/web-design/discover-power-svg-61515291?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/06/discover-the-power-of-svg.jpg" alt="Discover the Power of SVG " /></a>
+						<p>Sara Soueidan explores how scalable vector graphics can be used for much more than just creating and animating shapes.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bitsofco.de/2015/pseudo-classes-pseudo-elements-and-colon-notation/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Pseudo-Classes, Pseudo-Elements, and Colon Notation</a></h2>
+													</header>
+						<p>Ire Aderinokun explores the difference between pseudo-elements and pseudo-classes and which colon syntax should be used.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://jxnblk.com/writing/posts/mathematical-web-typography/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Mathematical Web Typography</a></h2>
+													</header>
+						<p>Brent Jackson shares an approach for creating modular typographic systems on the Web.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.sitepoint.com/accessible-footnotes-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Accessible Footnotes with CSS</a></h2>
+													</header>
+						<p>Hugo Giraudel considers how in-document linked footnotes can be created to be maintainable and accessible with just HTML and CSS.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://typejs.org/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Type.js</a></h2>
+													</header>
+						<p>Type.js allows you to take finer typographic control of type styles on the web.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://osvaldas.info/detecting-css-animation-transition-end-with-javascript?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Detecting CSS Animation and Transition End with JavaScript</a></h2>
+													</header>
+						<p>A simple script that will help you detect the end of CSS animations and transitions.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codyhouse.co/gem/animated-sign-up-flow/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Animated Sign Up Flow</a></h2>
+													</header>
+						<a href="http://codyhouse.co/gem/animated-sign-up-flow/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/animated-sign-up-flow1.jpg" alt="Animated Sign Up Flow" /></a>
+						<p>Sebastiano Guerriero created a concept of a pricing table that animates into a sign up form once the user selects a plan.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/9Bop6-cPN_8" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-169/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #168</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/UNJcguze8JM/</link>
+            <pubDate>Tue, 23 Jun 2015 13:57:58 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-168/</guid>
+            <description>
+                <![CDATA[Learn how to use SVGs on your websites, how to write good, readable, and maintainable CSS, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://svgontheweb.com/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">SVG on the Web — A Practical Guide</a></h2>
+													</header>
+						<a href="https://svgontheweb.com/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/svg-on-the-web1.jpg" alt="SVG on the Web — A Practical Guide" /></a>
+						<p>Jake Giltsoff gives a practical overview of how you can use SVGs on your websites — with some tips and tricks along the way to get the most out of them.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://speckyboy.com/2015/06/17/writing-good-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Writing Good CSS</a></h2>
+													</header>
+						<a href="http://speckyboy.com/2015/06/17/writing-good-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/writing-good-css1.jpg" alt="Writing Good CSS" /></a>
+						<p>Mark Rabey shares his thoughts on writing readable, maintainable, and scalable CSS.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://synd.co/11wvL9t" target="_blank_">From Our Sponsor</a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bit.ly/cssw-sliderule">Kickstart your Portfolio at SlideRule's UX Design School</a></h2>
+													</header>
+						<a href="http://bit.ly/cssw-sliderule"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/05/kickstart-your-portfolio-at-sliderules-ux-design-school.jpg" alt="Kickstart your Portfolio at SlideRule's UX Design School" /></a>
+						<p>In this 8-week Online Workshop, you&#8217;ll learn user research, visual design, personas, and wireframing, by working on real projects under the mentorship of expert designers from Stanford d.School, Adobe, Thoughtworks and Pivotal Labs! Registrations end soon! Spots are limited.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codersblock.com/blog/checkbox-trickery-with-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Checkbox Trickery with CSS </a></h2>
+													</header>
+						<a href="http://codersblock.com/blog/checkbox-trickery-with-css/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/06/checkbox-trickery-with-css.jpg" alt="Checkbox Trickery with CSS " /></a>
+						<p>Will Boyd showcases some of the creative things you can do with checkboxes in pure CSS (without JavaScript).</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://css-tricks.com/useful-flexbox-technique-alignment-shifting-wrapping/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Useful Flexbox Technique: Alignment Shifting Wrapping</a></h2>
+													</header>
+						<a href="https://css-tricks.com/useful-flexbox-technique-alignment-shifting-wrapping/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/06/useful-flexbox-technique-alignment-shifting-wrapping1.jpg" alt="Useful Flexbox Technique: Alignment Shifting Wrapping" /></a>
+						<p>Chris Coyier shows how can flexbox help you solve a seemingly impossible design problem.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://sixrevisions.com/css/css-methodologies/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">A Look at Some CSS Methodologies</a></h2>
+													</header>
+						<p>Kieran Potts gives an overview of different CSS methodologies.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://trydesignlab.com/responsive-web-design/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Responsive Web Design Email Course</a></h2>
+													</header>
+						<p>Patrick Wong explains the basics of responsive web design in this 6-day email course.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.smashingmagazine.com/2015/06/17/responsive-typography-with-sass-maps/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Responsive Typography With Sass Maps</a></h2>
+													</header>
+						<p>Managing responsive typographic rhythm isn’t easy. Jonathan Suh shows how Sass maps make responsive typography much more manageable.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://leaverou.github.io/conic-gradient/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS conic-gradient() Polyfill</a></h2>
+													</header>
+						<p>Polyfill for conic-gradient() and repeating-conic-gradient() by Lea Verou.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codepen.io/carolineartz/full/ogVXZj?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Angular Interactive Box-Model Diagram </a></h2>
+													</header>
+						<p>An app to visualize the box-model and see how changing the value of box-sizing affects element size.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codepen.io/pixelass/pen/mJBGeK?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Pop Fractal Art</a></h2>
+													</header>
+						<a href="http://codepen.io/pixelass/pen/mJBGeK?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/css-pop-fractal-art.jpg" alt="Pop Fractal Art" /></a>
+						<p>Gregor Adams created a beautiful piece of art in pure CSS.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/UNJcguze8JM" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-168/</feedburner:origLink>
+        </item>
+        <item>
+            <title>Issue #167</title>
+            <link>http://feedproxy.google.com/~r/CSS-Weekly/~3/89yhNY0wtoc/</link>
+            <pubDate>Tue, 16 Jun 2015 13:43:38 +0000</pubDate>
+            <dc:creator>Zoran Jambor</dc:creator>
+            <category><![CDATA[Issue]]></category>
+
+            <guid isPermaLink="false">http://css-weekly.com/issue-167/</guid>
+            <description>
+                <![CDATA[Learn how to effectively build HTML Email Templates, what are the benefits of CSS naming conventions and methodologies, how to use most of the new features from CSS selectors level 4, and more.]]></description>
+            <content:encoded><![CDATA[			<section class="newsletter-section">
+
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.leemunroe.com/building-html-email/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Things I've Learned About Building & Coding HTML Email Templates</a></h2>
+													</header>
+						<a href="http://www.leemunroe.com/building-html-email/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/building-html-email.jpg" alt="Things I've Learned About Building & Coding HTML Email Templates" /></a>
+						<p>Lee Munroe shares everything he learned about building and coding HTML newsletters.</p>
+						<br />
+					</article>
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://medium.com/@cathy_dutton/css-layers-afff4ae66649?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">CSS Layers</a></h2>
+													</header>
+						<a href="https://medium.com/@cathy_dutton/css-layers-afff4ae66649?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/css-layers.jpg" alt="CSS Layers" /></a>
+						<p>Cathy Dutton looks at some popular CSS naming conventions and methodologies and outlines the benefits they can bring to your projects.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title"><a href="http://synd.co/11wvL9t" target="_blank_">From Our Sponsor <small>(via Syndicate)</small></a></h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://synd.co/1MwPYg1">Learn UI/UX design skills with an expert mentor</a></h2>
+													</header>
+						<a href="http://synd.co/1MwPYg1"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/designlab-cssweekly.png" alt="Learn UI/UX design skills with an expert mentor" /></a>
+						<p>Do you ever wish your websites looked more “professional”?</p>
+<p>Take one of our online UI/UX design courses with hands-on projects &amp; 1-on-1 mentorship from expert designers at companies like Twitter &amp; Dropbox — we guarantee you’ll see an improvement in your work.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Articles & Tutorials</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://www.sitepoint.com/future-generation-css-selectors-level-4/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">The Future Generation of CSS Selectors: Level 4</a></h2>
+													</header>
+						<a href="http://www.sitepoint.com/future-generation-css-selectors-level-4/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/06/future-generation-css-selectors-level-4-2.jpg" alt="The Future Generation of CSS Selectors: Level 4" /></a>
+						<p>Louis Lazaris discusses and demonstrates how to use most of the new features from CSS selectors level 4.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://www.lullabot.com/blog/article/importing-css-breakpoints-javascript?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Importing CSS Breakpoints Into JavaScript</a></h2>
+													</header>
+						<a href="https://www.lullabot.com/blog/article/importing-css-breakpoints-javascript?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="130" height="130" src="http://css-weekly.com/wp-content/uploads/2015/06/importing-css-breakpoints-javascript2.jpg" alt="Importing CSS Breakpoints Into JavaScript" /></a>
+						<p>Mike Herchel demonstrates a simple way to keep your media queries in CSS and JavaScript in sync.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://stelian.firez.be/post/pushing-the-limits-of-visited-with-css-blend-modes/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Pushing the Limits of :visited with CSS Blend Modes </a></h2>
+													</header>
+						<p>Stelian Firez shows how to effectively style visited links using blend modes.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://medium.com/@roblcopeland/how-can-i-make-my-forms-a-little-more-accessible-1726d63210f2?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">How Can I Make My Forms A Little More Accessible?</a></h2>
+													</header>
+						<p>Rob Copeland shows how to easily improve the accessibility of your site.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://bitsofco.de/2015/5-lesser-used-css-selectors/?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">5 Lesser Used CSS Selectors</a></h2>
+													</header>
+						<p>Ire Aderinokun explores lesser known CSS selectors and gives some use cases for them.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Tools</h1>
+
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://github.com/fraser-hemp/gradify?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Gradify</a></h2>
+													</header>
+						<p>Gradify is a tool that produces  scalable and responsive CSS gradients as placeholders for images.</p>
+						<br />
+					</article>
+									<article class="newsletter-article floated">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="https://github.com/nashvail/Quttons?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Quttons</a></h2>
+													</header>
+						<p>Quttons are buttons made of Quantum Paper (a digital paper that can change its size, shape and color to accommodate new content).</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Inspiration</h1>
+
+									<article class="newsletter-article">
+						<header class="newsletter-header">
+							<h2 class="article-title"><a href="http://codepen.io/joshbader/pen/EjXgqr?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS">Animated Weather Icons</a></h2>
+													</header>
+						<a href="http://codepen.io/joshbader/pen/EjXgqr?utm_source=CSS-Weekly&utm_campaign=Issue-179&utm_medium=RSS"><img width="400" height="178" src="http://css-weekly.com/wp-content/uploads/2015/06/animated-weather-icons.jpg" alt="Animated Weather Icons" /></a>
+						<p>Josh Bader created a nice set of beautiful, animated, pure-css weather icons. Simple, but very effective.</p>
+						<br />
+					</article>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>Thanks for reading and thanks for your support, *|FNAME|*.</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+					<section class="newsletter-section">
+
+									<h1 class="section-title">Until Next Week</h1>
+
+									<div class="newsletter-section-intro">
+					<p>If you like this newsletter, please consider <a href="http://bit.ly/cssweekly-patreon" target="_blank">supporting it on Patreon</a>. Thank you!</p>
+<p>Happy coding,<br />
+<a href="http://twitter.com/ZoranJambor" target="_blank">Zoran Jambor</a></p>
+					</div>
+
+			</section>
+
+		<img src="http://feeds.feedburner.com/~r/CSS-Weekly/~4/89yhNY0wtoc" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://css-weekly.com/issue-167/</feedburner:origLink>
+        </item>
+    </channel>
+</rss><!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: css-weekly.com @ 2015-09-11 14:21:01 by W3 Total Cache -->

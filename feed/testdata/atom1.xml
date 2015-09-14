@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed
+        xmlns="http://www.w3.org/2005/Atom"
+        xmlns:thr="http://purl.org/syndication/thread/1.0"
+        xml:lang="en-US"
+        xml:base="https://www.percona.com/blog/wp-atom.php"
+        >
+    <title
+            type="text">MySQL Performance Blog
+    </title>
+    <subtitle
+            type="text">Percona&#039;s Data performance and scalability blog
+    </subtitle>
+    <updated>2015-09-10T20:29:21Z</updated>
+    <link
+            rel="alternate" type="text/html" href="https://www.percona.com/blog"/>
+    <id>https://www.percona.com/blog/feed/atom/</id>
+    <link
+            rel="self" type="application/atom+xml" href="https://www.percona.com/blog/feed/atom/"/>
+    <generator
+            uri="http://wordpress.org/" version="4.3">WordPress
+    </generator>
+    <entry>
+        <author>
+            <name>Hrvoje Matijakovic</name>
+        </author>
+        <title
+                type="html"><![CDATA[Percona TokuMX 2.0.2 is now available]]></title>
+        <link
+                rel="alternate" type="text/html"
+                href="https://www.percona.com/blog/2015/09/10/percona-tokumx-2-0-2-is-now-available/"/>
+        <id>https://www.percona.com/blog/?p=31785</id>
+        <updated>2015-09-10T20:29:21Z</updated>
+        <published>2015-09-10T20:29:21Z</published>
+        <category
+                scheme="https://www.percona.com/blog" term="Events and Announcements"/>
+        <category
+                scheme="https://www.percona.com/blog" term="MongoDB"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Software"/>
+        <category
+                scheme="https://www.percona.com/blog" term="TokuMX"/>
+        <summary
+                type="html"><![CDATA[<p>Percona is glad to announce the release of Percona TokuMX 2.0.2 on September 10th 2015. Downloads are available here and from the Percona Software Repositories. Based on MongoDB 2.4.10 including all the bug fixes in ...</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/10/percona-tokumx-2-0-2-is-now-available/">Percona TokuMX 2.0.2 is now available</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></summary>
+        <content
+                type="html" xml:base="https://www.percona.com/blog/2015/09/10/percona-tokumx-2-0-2-is-now-available/">
+            <![CDATA[<p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/05/logo_percona_tokumx.jpg"><img
+class="alignright size-full wp-image-12668" src="https://www.percona.com/blog/wp-content/uploads/2015/05/logo_percona_tokumx.jpg" alt="Percona TokuMXse" width="229" height="87" /></a> <em>Percona</em> is glad to announce the release of Percona TokuMX 2.0.2 on September 10th 2015. Downloads are available <a
+href="https://www.percona.com/downloads/percona-tokumx/LATEST/">here</a> and from the <a
+href="https://www.percona.com/doc/percona-tokumx/installation_from_packages.html">Percona Software Repositories</a>.</p><p>Based on <a
+rel="nofollow" rel="nofollow" href="http://docs.mongodb.org/manual/release-notes/2.4/#april-4-2014">MongoDB 2.4.10</a> including all the bug fixes in it, <em>Percona TokuMX</em> 2.0.2 is current GA release in <em>Percona TokuMX</em> 2.0 series.</p><p><strong>New Features</strong></p><ul><li>Percona TokuMX Enterprise has been open-sourced and it&#8217;s now replacing <em>Percona TokuMX Community</em> edition. To install or upgrade this new release use the tokumx-enterprise package. Packages are available from <a
+href="https://www.percona.com/doc/percona-tokumx/installation_from_packages.html">Percona Software Repositories</a>, this means that you’ll need to replace the <em>Tokutek</em>&#8216;s S3 repository with <em>Percona</em>&#8216;s in order to see the new packages.</li><li>Packages for <em>Fedora</em> and <em>Arch Linux</em> are not available anymore.</li></ul><p><strong>Bugs Fixed</strong></p><ul><li>Fixed long replica node startup times: The entire op log is no longer read during startup, it is now read from the point of the last successfully replicated GTID. Git commit <a
+rel="nofollow" rel="nofollow" href="https://github.com/Tokutek/mongo/commit/1d5afdaf743801a8d6a47b0135ddacdde22ce131">#1d5afda</a>.</li><li>Fixed rare multiple primary issue: In certain scenarios, replicas would attempt to declare themselves as primary when another node had already been declared as primary. A node now performs an extra check against its role during remote primary notification. Git commit <a
+rel="nofollow" rel="nofollow" href="https://github.com/Tokutek/mongo/commit/5909737a27025c99260a50d96b29c29f057cdc5d">#5909737</a>.</li></ul><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/10/percona-tokumx-2-0-2-is-now-available/">Percona TokuMX 2.0.2 is now available</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></content>
+        <link
+                rel="replies" type="text/html"
+                href="https://www.percona.com/blog/2015/09/10/percona-tokumx-2-0-2-is-now-available/#comments"
+                thr:count="0"/>
+        <link
+                rel="replies" type="application/atom+xml"
+                href="https://www.percona.com/blog/2015/09/10/percona-tokumx-2-0-2-is-now-available/feed/atom/"
+                thr:count="0"/>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>Kortney Runyan</name>
+            <uri>http://www.percona.com/</uri>
+        </author>
+        <title
+                type="html"><![CDATA[Percona Live Keynote Speakers and Topics!]]></title>
+        <link
+                rel="alternate" type="text/html"
+                href="https://www.percona.com/blog/2015/09/10/percona-live-keynote-speakers-and-topics/"/>
+        <id>https://www.percona.com/blog/?p=31792</id>
+        <updated>2015-09-10T18:57:49Z</updated>
+        <published>2015-09-10T18:57:49Z</published>
+        <category
+                scheme="https://www.percona.com/blog" term="Events and Announcements"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Announcement"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Booking.com"/>
+        <category
+                scheme="https://www.percona.com/blog" term="MongoDB"/>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Oracle"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona"/>
+        <category
+                scheme="https://www.percona.com/blog" term="percona live"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Live Amsterdam"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Peter Zaitsev"/>
+        <category
+                scheme="https://www.percona.com/blog" term="SportPesa"/>
+        <category
+                scheme="https://www.percona.com/blog" term="VMware"/>
+        <summary
+                type="html"><![CDATA[<p>The countdown for the annual Percona Live Data Performance Conference and Expo in Europe continues with today’s announcement of our keynote speakers! This three-day conference focuses on the latest trends, news and best practices in the MySQL, ...</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/10/percona-live-keynote-speakers-and-topics/">Percona Live Keynote Speakers and Topics!</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></summary>
+        <content
+                type="html"
+                xml:base="https://www.percona.com/blog/2015/09/10/percona-live-keynote-speakers-and-topics/"><![CDATA[<p>The countdown for the annual <a
+href="https://www.percona.com/live/europe-amsterdam-2015/">Percona Live Data Performance Conference and Expo</a> in Europe continues with today’s announcement of our keynote speakers!</p><p>This three-day conference focuses on the latest trends, news and best practices in the MySQL, NoSQL and data in the cloud markets, while looking forward to what’s on the long-term horizon within the global data performance industry. Attendees will get briefed on the hottest topics, learn about building and maintaining high-performing deployments and hear from technical experts. Whether you are new to data performance or a senior DBA with years of experience, there are tracks for you. With 84 breakout sessions, 8 tutorial sessions and 6 keynotes there will be no lack of great <a
+href="https://www.percona.com/live/europe-amsterdam-2015/program">content</a> presented by top industry professionals. You’ll return home equipped with new tools and ideas to make your business run better.</p><p><strong>The Percona Live Europe 2015 keynote speakers and topics include:</strong></p><ul><li>MC Brown, VMware Continuent, “Tungsten Replicator, More Open Than Ever!”: This talk will explain why a heterogeneous data replication solution is necessary to effectively move data between both databases and datacenters.</li></ul><ul><li>Kristian Köhntopp, Syseleven GmbH, “The Virtues of Boring Technology”:<br
+/> This talk will rely on experiences at Booking.com to highlight why &#8220;boring&#8221; technology makes sense for organizations that are busy managing growth.</li></ul><ul><li>Geir Hoydalsvik, Oracle, “MySQL 5.7: 20 years in the making!”: MySQL 5.7 is on its way to GA. This talk covers major developments including JSON, Optimizer Hints, Query Rewrite, Optimizer Cost Model, GIS, InnoDB, Group Replication, Fabric, Performance Schema, Sys Schema, Workbench and much more!</li></ul><ul><li>Mark Callaghan, Facebook, “MySQL and MongoDB for web-scale data management”:<br
+/> This talk will ignore debates over legacy vs. new, NoSQL/NewSQL vs. SQL or relational vs. document data models. I want a solution for sharded replica sets that is efficient, performant and manageable. I have a wish list for features. How close will MySQL and MongoDB get to making this easier in the next few years?</li></ul><ul><li>Peter Zaitsev, Percona, “Percona: Your Partner in Optimizing Data Performance”: This talk will focus on the growth of open source products in the enterprise and the importance of using the right open source tools and technology for each job rather than being locked into a proprietary solution. Learn how Percona is a true open source partner that helps you optimize your data performance to better run your business.</li></ul><ul><li>Keynote Panel featuring Jim Doherty, Percona (Moderator); Kenny Gorman, Rackspace; Mark Callaghan, Facebook; Ian Meyers, Amazon Web Services; and Peter Zaitsev, Percona, “The Next Disruptive Technology: What Comes After the Cloud and Big Data?”: With the Cloud and Big Data transitioning from “next big things” to broadly deployed operational technologies we think it’s a good time to look a few years out and speculate about what may prove to be the next big technology disruption. So what’s next?</li></ul><p>Fun Featured Events!</p><ul><li>Monday, September 21, SportPesa, Africa’s #1 sports betting platform, is hosting the Opening Party at the Delirium Café, following the day’s tutorial sessions, to kick off the conference and features giveaways, games, top prizes and beer!<img
+class="alignnone size-medium wp-image-31793 alignright" src="https://www.percona.com/blog/wp-content/uploads/2015/09/delirium-outside-cafe-ij-view-300x200.jpg" alt="delirium-outside-cafe-ij-view" width="300" height="200" /></li><li>Tuesday, September 22, Percona Live Diamond Sponsor <a
+rel="nofollow" rel="nofollow" href="http://www.booking.com">booking.com</a> will host the <a
+rel="nofollow" rel="nofollow" href="http://www.eventbrite.com/e/community-dinner-bookingcom-tickets-17901675393">Community Dinner</a> at the company’s headquarters in historic Rembrandt Square. After the day’s breakout sessions, attendees will be picked up outside the venue and taken to the dinner by canal boats! Space is limited so attendees should <a
+rel="nofollow" rel="nofollow" href="http://www.eventbrite.com/e/community-dinner-bookingcom-tickets-17901675393">sign up</a> as soon as possible.</li><li>Wednesday, September 23, the closing reception will be held in the Mövenpick Hotel exhibit hall.</li></ul><p>So <em>don’t forget</em>, <a
+href="https://www.percona.com/live/europe-amsterdam-2015/registration">register</a> for the conference and <a
+rel="nofollow" rel="nofollow" href="http://www.eventbrite.com/e/community-dinner-bookingcom-tickets-17901675393">sign up</a> for the community dinner before space is gone!</p><p>See you in Amsterdam!</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/10/percona-live-keynote-speakers-and-topics/">Percona Live Keynote Speakers and Topics!</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></content>
+        <link
+                rel="replies" type="text/html"
+                href="https://www.percona.com/blog/2015/09/10/percona-live-keynote-speakers-and-topics/#comments"
+                thr:count="0"/>
+        <link
+                rel="replies" type="application/atom+xml"
+                href="https://www.percona.com/blog/2015/09/10/percona-live-keynote-speakers-and-topics/feed/atom/"
+                thr:count="0"/>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>Andrew Moore</name>
+        </author>
+        <title
+                type="html"><![CDATA[Percona Server audit log plugin best practices]]></title>
+        <link
+                rel="alternate" type="text/html"
+                href="https://www.percona.com/blog/2015/09/10/percona-server-audit-log-plugin-best-practices/"/>
+        <id>https://www.percona.com/blog/?p=25014</id>
+        <updated>2015-09-10T12:27:07Z</updated>
+        <published>2015-09-10T07:00:34Z</published>
+        <category
+                scheme="https://www.percona.com/blog" term="Insight for DBAs"/>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Server"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Andrew Moore"/>
+        <category
+                scheme="https://www.percona.com/blog" term="audit log plugin"/>
+        <category
+                scheme="https://www.percona.com/blog" term="best practices"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Database auditing"/>
+        <summary
+                type="html"><![CDATA[<p>Auditing your database means tracking access and changes to your data and db objects. The Audit Log Plugin has been shipped with Percona Server since 5.5.37/5.6.17, for a little over 12 months. Prior to the Audit Log ...</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/10/percona-server-audit-log-plugin-best-practices/">Percona Server audit log plugin best practices</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></summary>
+        <content
+                type="html"
+                xml:base="https://www.percona.com/blog/2015/09/10/percona-server-audit-log-plugin-best-practices/">
+            <![CDATA[<p>Auditing your database means tracking access and changes to your data and db objects. The Audit Log Plugin has been shipped with Percona Server since 5.5.37/5.6.17, for a little over 12 months. Prior to the Audit Log Plugin, you had to work in darker ways to achieve some incarnation of an audit trail.</p><p>We have seen attempts at creating audit trails using approaches such as &#8216;sniffing the wire&#8217;, init files, in-schema &#8216;on update&#8217; fields, triggers, proxies and trying to parse the traditional logs of MySQL (slow, general, binary, error). All of these attempts miss a piece of the pie, i.e. if you&#8217;re sniffing tcp traffic you&#8217;ll miss local connections, parsing binary logs you&#8217;re missing any reads. Your reasons for audit logging might be down to compliance requirements (HIPAA, PCI DSS) or you may need a way to examine database activity or track the connections incoming.</p><p>Over the past months I&#8217;ve met many support requests with the answer &#8216;install an audit plugin&#8217;. These requests have been varied but they have ranged from; finding out if a user is still active and if the impact of decommissioning it, the frequency of specific queries and checking if a slave is being written to name but a few.</p><p>So then, lets look at installation. In general we desire installation of the Audit Plugin on an existing instance. We discussed in previous Percona Blog posts, the installation of the plugin is trivial but lets recap. Lets perform a couple of basic checks before we run the install command from the client. First, query MySQL for the location of the plugins directory;</p><pre class="crayon-plain-tag">mysql&gt; show global variables like 'plugin_dir';
++---------------+--------------------------+
+| Variable_name | Value                    |
++---------------+--------------------------+
+| plugin_dir    | /usr/lib64/mysql/plugin/ |
++---------------+--------------------------+
+1 row in set (0.00 sec)</pre><p>Once that&#8217;s known we&#8217;ll check that the audit log plugin shared library is present;</p><pre class="crayon-plain-tag">[moore@randy ~]$ ls -l /usr/lib64/mysql/plugin/audit*
+-rwxr-xr-x. 1 root root 42976 Jul  1 09:24 /usr/lib64/mysql/plugin/audit_log.so</pre><p>Great, we are in good shape to move to the client and install;</p><pre class="crayon-plain-tag">mysql&gt; install plugin audit_log soname 'audit_log.so';
+Query OK, 0 rows affected (0.00 sec)
+mysql&gt; select * from mysql.plugin;
++-------------------------------+--------------+
+| name                          | dl           |
++-------------------------------+--------------+
+| audit_log                     | audit_log.so |
+...
++-------------------------------+--------------+
+8 rows in set (0.00 sec)</pre><p>Voila! It&#8217;s that simple. So, what does that provide us? Well now thanks to our default variables we&#8217;ve got the following options set;</p><pre class="crayon-plain-tag">mysql&gt; show global variables like 'audit%';
++---------------------------+---------------+
+| Variable_name             | Value         |
++---------------------------+---------------+
+| audit_log_buffer_size     | 1048576       |
+| audit_log_file            | audit.log     |
+| audit_log_flush           | OFF           |
+| audit_log_format          | OLD           |
+| audit_log_handler         | FILE          |
+| audit_log_policy          | ALL           |
+| audit_log_rotate_on_size  | 0             |
+| audit_log_rotations       | 0             |
+| audit_log_strategy        | ASYNCHRONOUS  |
+| audit_log_syslog_facility | LOG_USER      |
+| audit_log_syslog_ident    | percona-audit |
+| audit_log_syslog_priority | LOG_INFO      |
++---------------------------+---------------+
+12 rows in set (0.00 sec)</pre><p>So what we can tell from that output is that our audit plugin is enabled, it&#8217;s logging out to the default location ({datadir}/audit.log) and we&#8217;re grabbing all events (ALL) on the server and sending the output in XML format (OLD). From the list of variables above we&#8217;ve only got one dynamic variable. This means to change the logfile location or the format we need to put these options into our my.cnf and restart the instance. Not very convenient. Personally, it&#8217;s my preference to store the audit.log file away from my datadir.</p><p>I also dislike the XML formats in favour of the JSON log format. It is also advised, especially on busier systems, to enable the rotation options, <code>audit_log_rotate_on_size</code> and <code>audit_log_rotations</code> so that you don&#8217;t end up filling your disk with a huge audit log. Restarting your production instances isn&#8217;t extremely convenient but you&#8217;ll be happy to learn there is another way.</p><p>Let&#8217;s rewind to before we installed the plugin. We had checked the existence of our plugin shared library and were itching to run the install command. Now we can open our my.cnf file and add our preferred options prior to installation. Whilst it&#8217;s far from a secret, not many will know that the in the plugin installation phase, MySQL will re-read the my.cnf file to check for configuration relevant to the plugin. So let&#8217;s add some variables here;</p><pre class="crayon-plain-tag">## Audit Logging ##
+audit_log_policy=ALL
+audit_log_format=JSON
+audit_log_file=/var/log/mysql/audit.log
+audit_log_rotate_on_size=1024M
+audit_log_rotations=10</pre><p>A quick review of the above. I intend to log all events in JSON format to the /var/log/mysql location. I will rotate each time the active log file hits 1G and this will circulate 10 files meaning I will not have more than 10G of audit logs on my filesystem.</p><p>Now with our predefined configuration in the my.cnf we can install the plugin from cold and begin with our preferred options;</p><pre class="crayon-plain-tag">mysql&gt; show global variables like 'audit%';
+Empty set (0.00 sec)
+mysql&gt; install plugin audit_log soname 'audit_log.so';
+Query OK, 0 rows affected (0.00 sec)
+mysql&gt; show global variables like 'audit%';
++---------------------------+--------------------------+
+| Variable_name             | Value                    |
++---------------------------+--------------------------+
+| audit_log_buffer_size     | 1048576                  |
+| audit_log_file            | /var/log/mysql/audit.log |
+| audit_log_flush           | OFF                      |
+| audit_log_format          | JSON                     |
+| audit_log_handler         | FILE                     |
+| audit_log_policy          | ALL                      |
+| audit_log_rotate_on_size  | 1073741824               |
+| audit_log_rotations       | 10                       |
+| audit_log_strategy        | ASYNCHRONOUS             |
+| audit_log_syslog_facility | LOG_USER                 |
+| audit_log_syslog_ident    | percona-audit            |
+| audit_log_syslog_priority | LOG_INFO                 |
++---------------------------+--------------------------+
+12 rows in set (0.00 sec)</pre><p>Something to remember; if you add these variables before installation of the plugin and you restart your instance or suffer a crash, your instance will not start.</p><pre class="crayon-plain-tag">[moore@randy ~]$ sudo systemctl restart mysql
+[moore@randy ~]$ sudo egrep 'ERROR' /var/log/mysqld.log
+2015-09-02 11:55:16 8794 [ERROR] /usr/sbin/mysqld: unknown variable 'audit_log_policy=ALL'
+2015-09-02 11:55:16 8794 [ERROR] Aborting</pre><p>When all up and running we can check that the content is finding it&#8217;s way to our log file by opening it up and taking a look. Our JSON output will store a new line of JSON per event, here&#8217;s an example:</p><pre class="crayon-plain-tag">{"audit_record":{"name":"Query","record":"1067824616_2015-09-02T10:04:26","timestamp":"2015-09-02T10:54:53 UTC","command_class":"show_status","connection_id":"6","status":0,"sqltext":"SHOW /*!50002 GLOBAL */ STATUS","user":"pct[pct] @ localhost [127.0.0.1]","host":"localhost","os_user":"","ip":"127.0.0.1"}}</pre><p>compare that with the &#8216;OLD&#8217; XML output format that spans multiple lines making parsing a more difficult task:</p><pre class="crayon-plain-tag">&lt;AUDIT_RECORD
+ NAME="Query"
+ RECORD="2745742_2015-09-02T21:12:10"
+ TIMESTAMP="2015-09-02T21:12:22 UTC"
+ COMMAND_CLASS="show_status"
+ CONNECTION_ID="8"
+ STATUS="0"
+ SQLTEXT="SHOW /*!50002 GLOBAL */ STATUS"
+ USER="pct[pct] @ localhost [127.0.0.1]"
+ HOST="localhost"
+ OS_USER=""
+ IP="127.0.0.1"
+/&gt;</pre><p></p><h3>Cost</h3><p>One of the common assumptions of invoking the Audit Plugin is that it&#8217;s going to take an almighty hit on load. Logging all connections, queries and admin statements&#8230;surely? Well not so true. I spent some time observing the impact to the resources on a humbly specc&#8217;d home server. A small machine running quad core Xeon, 32G of RAM and a Samsung PRO SSD with a 72k rpm disk for the logs. Here are a collection of the graphs to illustrate that the impact of turning on the Audit Logging in asynchronous mode, as you will see the results are encouragingly showing little impact on activation of full logging. In each image, audit logging was set off and subsequently on.</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/09/percona_cpu_off_on.png"><img
+class="size-medium wp-image-31719 aligncenter" src="https://www.percona.com/blog/wp-content/uploads/2015/09/percona_cpu_off_on-300x133.png" alt="percona_cpu_off_on" width="300" height="133" /></a><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/09/percona_disk_off_on.png"><img
+class="size-medium wp-image-31720 aligncenter" src="https://www.percona.com/blog/wp-content/uploads/2015/09/percona_disk_off_on-300x133.png" alt="percona_disk_off_on" width="300" height="133" /></a><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/09/percona_off_on.png"><img
+class="aligncenter size-medium wp-image-31721" src="https://www.percona.com/blog/wp-content/uploads/2015/09/percona_off_on-300x133.png" alt="percona_off_on" width="300" height="133" /></a></p><h3>Summary</h3><p>We can install the Percona Audit plugin with our preferred options on a running system without interrupting it by adding our variables to the my.cnf. By performing this prior to the installing the plugin gives us best practice options without needing to restart the instance for static variables to take effect. Due to the lightweight nature of the audit plugin you can add this new log file to track access and changes to the data without the performance hit of the slow or general log. The audit log is a great aid to debugging and can serve as a security measure and malpractice deterrent.</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/10/percona-server-audit-log-plugin-best-practices/">Percona Server audit log plugin best practices</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></content>
+        <link
+                rel="replies" type="text/html"
+                href="https://www.percona.com/blog/2015/09/10/percona-server-audit-log-plugin-best-practices/#comments"
+                thr:count="0"/>
+        <link
+                rel="replies" type="application/atom+xml"
+                href="https://www.percona.com/blog/2015/09/10/percona-server-audit-log-plugin-best-practices/feed/atom/"
+                thr:count="0"/>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>David Ducos</name>
+        </author>
+        <title
+                type="html"><![CDATA[Testing MySQL partitioning with pt-online-schema-change]]></title>
+        <link
+                rel="alternate" type="text/html"
+                href="https://www.percona.com/blog/2015/09/09/testing-mysql-partitioning-pt-online-schema-change/"/>
+        <id>https://www.percona.com/blog/?p=31483</id>
+        <updated>2015-09-04T18:33:47Z</updated>
+        <published>2015-09-09T10:00:41Z</published>
+        <category
+                scheme="https://www.percona.com/blog" term="Benchmarks"/>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Toolkit"/>
+        <category
+                scheme="https://www.percona.com/blog" term="David Ducos"/>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL partitioning"/>
+        <category
+                scheme="https://www.percona.com/blog" term="pt-online-schema-change"/>
+        <summary
+                type="html"><![CDATA[<p>There are cases where we need to implement MySQL partitioning, or at least test if it is an option to solve an issue. However, how are we able to test it when the table on our production ...</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/09/testing-mysql-partitioning-pt-online-schema-change/">Testing MySQL partitioning with pt-online-schema-change</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></summary>
+        <content
+                type="html"
+                xml:base="https://www.percona.com/blog/2015/09/09/testing-mysql-partitioning-pt-online-schema-change/">
+            <![CDATA[<p>There are cases where we need to implement MySQL partitioning, or at least test if it is an option to solve an issue. However, how are we able to test it when the table on our production environment has hundreds of millions of rows, several composite indexes and/or the size on disk is hundreds of gigabytes?</p><p>Testing environments usually don&#8217;t have all the data that production has and if they have, probably you are not testing all the use-cases at a database level. Therefore, is it possible to test MySQL Partitioning on production impacting as less as possible?</p><p>When we execute pt-online-schema-change, it creates a table, triggers, and then copies the data. As we are going to test partitioning we are going to need both tables &#8211; with and without partitioning &#8211; and we are going to use triggers to keep both tables consistent. A good thing about changing a table to use partitioning is that, usually, you won&#8217;t need to change the structure of the row, which means that you are able to use practically the same statement to insert, update or delete on both tables.</p><p>Let&#8217;s suppose that we have this sysbench table:</p><pre class="crayon-plain-tag">CREATE TABLE `sbtest` (
+`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+`k` int(10) unsigned NOT NULL DEFAULT '0',
+`c` char(120) NOT NULL DEFAULT '',
+`pad` char(60) NOT NULL DEFAULT '',
+PRIMARY KEY (`id`),
+KEY `k_1` (`k`)
+) ENGINE=InnoDB;</pre><p>If we want to partition it, we execute:</p><pre class="crayon-plain-tag">ALTER TABLE percona.sbtest PARTITION BY HASH(id) partitions 4;</pre><p>We will execute pt-online-schema-change like this:</p><pre class="crayon-plain-tag">pt-online-schema-change h=localhost,D=percona,t=sbtest
+--recursion-method none --execute
+--alter "PARTITION BY HASH(id) partitions 4"</pre><p>But as we are going to test partitioning, we want to:</p><ul><li>keep with the original table</li><li>do not swap the tables</li><li>do not drop the triggers</li></ul><p>That is why we are going to execute pt-online-schema-change like this:</p><pre class="crayon-plain-tag">pt-online-schema-change h=localhost,D=percona,t=sbtest
+--recursion-method none --execute --no-swap-tables --no-drop-old-table
+--no-drop-new-table --no-drop-triggers
+--alter "PARTITION BY HASH(id) partitions 4"</pre><p>At the end we are going to have 2 tables, sbtest, which is not partitioned and _sbtest_new which is partitioned:</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/08/first.png"><img
+class=" wp-image-31534 aligncenter" src="https://www.percona.com/blog/wp-content/uploads/2015/08/first-1024x137.png" alt="first" width="337" height="45" /></a></p><p><span
+style="line-height: 1.5;">The next step that pt-osc was going to do was to swap the tables, but we used &#8211;no-swap-tables, so we are going to do it manually. But first, we are going to add the triggers to _sbtest_new, so that it can load the data to sbtest, which will be renamed to _sbtest_old. However, we need to create the trigger now, which are going to be very similar to the ones that already exists, but with the table name _sbtest_old, and that will end up in an error as _sbtest_old doesn&#8217;t exist yet. </span><span
+style="line-height: 1.5;">That is why we create the triggers handling the error:</span></p><pre class="crayon-plain-tag">delimiter //
+CREATE DEFINER=`root`@`%` TRIGGER `pt_osc_percona__sbtest_new_ins` AFTER INSERT ON `percona`.`_sbtest_new` FOR EACH ROW
+begin
+DECLARE CONTINUE HANDLER FOR SQLSTATE '42S02' BEGIN END;
+REPLACE INTO `percona`.`_sbtest_old` (`id`, `k`, `c`, `pad`) VALUES (NEW.`id`, NEW.`k`, NEW.`c`, NEW.`pad`);
+end;
+//
+CREATE DEFINER=`root`@`%` TRIGGER `pt_osc_percona__sbtest_new_upd` AFTER UPDATE ON `percona`.`_sbtest_new` FOR EACH ROW
+begin
+DECLARE CONTINUE HANDLER FOR SQLSTATE '42S02' BEGIN END;
+REPLACE INTO `percona`.`_sbtest_old` (`id`, `k`, `c`, `pad`) VALUES (NEW.`id`, NEW.`k`, NEW.`c`, NEW.`pad`);
+end;
+//
+CREATE DEFINER=`root`@`%` TRIGGER `pt_osc_percona__sbtest_new_del` AFTER DELETE ON `percona`.`_sbtest_new` FOR EACH ROW
+begin
+DECLARE CONTINUE HANDLER FOR SQLSTATE '42S02' BEGIN END;
+DELETE IGNORE FROM `percona`.`_sbtest_old` WHERE `percona`.`_sbtest_old`.`id` &lt;=&gt; OLD.`id`;
+end;
+//
+delimiter ;</pre><p>The schema is now:</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/08/second1.png"><img
+class=" wp-image-31536 aligncenter" src="https://www.percona.com/blog/wp-content/uploads/2015/08/second1-1024x75.png" alt="second" width="605" height="44" /></a><br
+/> We are going to create a table _sbtest_diff which will be the table that is going to be renamed to _sbtest_new. It doesn&#8217;t need to have indexes or be partitioned, so that it is simple:</p><pre class="crayon-plain-tag">CREATE TABLE `_sbtest_diff` (
+`id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+`k` int(10) unsigned NOT NULL DEFAULT '0',
+`c` char(120) NOT NULL DEFAULT '',
+`pad` char(60) NOT NULL DEFAULT '',
+PRIMARY KEY (`id`)
+) ENGINE=InnoDB;</pre><p>At this point we are able to swap the tables, the command to execute will be:</p><pre class="crayon-plain-tag">RENAME TABLE sbtest TO _sbtest_old, _sbtest_new TO sbtest, _sbtest_diff TO _sbtest_new;</pre><p>The rename table will do this:</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/08/third.png"><img
+class="alignnone wp-image-31541" src="https://www.percona.com/blog/wp-content/uploads/2015/08/third-1024x245.png" alt="third" width="753" height="180" /></a></p><p>Now you can test performance on the table.  If we want to return to the previous stage, we just execute:</p><pre class="crayon-plain-tag">RENAME TABLE _sbtest_new TO _sbtest_diff, sbtest TO _sbtest_new, _sbtest_old TO sbtest;</pre><p>With this two &#8220;RENAME TABLE&#8221; commands, we are able to back and forth to partition and non-partition table. Once you are satisfied with your testing, the remaining task is to clean up the triggers and the tables. At the end, there are 2 possible outcomes:</p><ul><li>The partitioned table is working as expected. The cleanup commands will be:</li></ul><p></p><pre class="crayon-plain-tag">DROP TRIGGER `pt_osc_percona__sbtest_new_ins`;
+DROP TRIGGER `pt_osc_percona__sbtest_new_upd`;
+DROP TRIGGER `pt_osc_percona__sbtest_new_del`;
+DROP TABLE _sbtest_new;
+DROP TABLE _sbtest_old;</pre><p></p><ul><li>We decided to keep the original table, which implies execute:</li></ul><p></p><pre class="crayon-plain-tag">DROP TRIGGER `pt_osc_percona_sbtest_ins`;
+DROP TRIGGER `pt_osc_percona_sbtest_upd`;
+DROP TRIGGER `pt_osc_percona_sbtest_del`;
+DROP TABLE _sbtest_new;
+DROP TABLE _sbtest_old;</pre><p>Conclusion:</p><p>With this procedure, you will have both tables &#8211; with and without partitioning &#8211; synchronized and you will be able to swap between them until you decide to keep one of them.</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/09/testing-mysql-partitioning-pt-online-schema-change/">Testing MySQL partitioning with pt-online-schema-change</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></content>
+        <link
+                rel="replies" type="text/html"
+                href="https://www.percona.com/blog/2015/09/09/testing-mysql-partitioning-pt-online-schema-change/#comments"
+                thr:count="2"/>
+        <link
+                rel="replies" type="application/atom+xml"
+                href="https://www.percona.com/blog/2015/09/09/testing-mysql-partitioning-pt-online-schema-change/feed/atom/"
+                thr:count="2"/>
+        <thr:total>2</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>Stephane Combaudon</name>
+        </author>
+        <title
+                type="html"><![CDATA[super_read_only and GTID replication]]></title>
+        <link
+                rel="alternate" type="text/html"
+                href="https://www.percona.com/blog/2015/09/08/super_read_only-gtid-replication/"/>
+        <id>https://www.percona.com/blog/?p=31683</id>
+        <updated>2015-09-04T18:22:43Z</updated>
+        <published>2015-09-08T07:00:07Z</published>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL"/>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL 5.7"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Server"/>
+        <category
+                scheme="https://www.percona.com/blog" term="GTID-replication"/>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL 5.7.8"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Server 5.6.21"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Stephane Combaudon"/>
+        <category
+                scheme="https://www.percona.com/blog" term="super_read_only"/>
+        <category
+                scheme="https://www.percona.com/blog" term="WebScaleSQL"/>
+        <summary
+                type="html"><![CDATA[<p>Percona Server 5.6.21+ and MySQL 5.7.8+ offer the super_read_only option that was first implemented in WebscaleSQL. Unlike read_only, this option prevents all users from running writes (even those with the SUPER privilege). Sure enough, this ...</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/08/super_read_only-gtid-replication/">super_read_only and GTID replication</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></summary>
+        <content
+                type="html" xml:base="https://www.percona.com/blog/2015/09/08/super_read_only-gtid-replication/">
+            <![CDATA[<p>Percona Server 5.6.21+ and MySQL 5.7.8+ offer the <code><a
+rel="nofollow" href="http://dev.mysql.com/doc/refman/5.7/en/server-system-variables.html#sysvar_super_read_only" target="_blank" rel="nofollow">super_read_only</a></code> option that was first implemented in WebscaleSQL. Unlike <code>read_only</code>, this option prevents all users from running writes (even those with the SUPER privilege). Sure enough, this is a great feature, but what&#8217;s the relation with GTID? Read on!</p><h2>TL;DR</h2><p>Enabling <code>super_read_only</code> on all slaves when using GTID replication makes your topology far less sensitive to errant transactions. Failover is then easier and safer because creating errant transactions is much harder.</p><h2>GTID replication is awesome&#8230;</h2><p>For years, all MySQL DBAs in the world have been fighting with positioning when working with replication. Each time you move a slave from one master to another, you must be very careful to start replicating at the correct position. That was boring and error-prone.</p><p>GTID replication is a revolution because it allows auto-positioning: when you configure server B to replicate from A, both servers will automatically negociate which events should be sent by the master. Of course this assumes the master has all missing events in its binlogs. Otherwise the slave will complain that it can&#8217;t get all the events it needs and you will see an error 1236.</p><h2>&#8230; but there&#8217;s a catch</h2><p>Actually GTID replication has several issues, the main one in MySQL 5.6 being the inability to switch from position-based to GTID-based replication without downtime. This has been <a
+href="https://www.percona.com/live/mysql-conference-2014/sessions/global-transaction-id-facebook" target="_blank">fixed</a> <a
+rel="nofollow" href="http://blog.booking.com/mysql-5.6-gtids-evaluation-and-online-migration.html" target="_blank" rel="nofollow">since</a> <a
+href="https://www.percona.com/blog/2015/02/10/online-gtid-rollout-now-available-percona-server-5-6/" target="_blank">then</a> <a
+rel="nofollow" href="http://dev.mysql.com/doc/refman/5.7/en/replication-mode-change-online-enable-gtids.html" target="_blank" rel="nofollow">fortunately</a>.</p><p>The issue I was thinking of is errant transactions. Not familiar with this term? Let me clarify.</p><p>Say you have a slave (B) replicating from a master (A) using the traditional position-based replication. Now you want to create a new database. This is easy: just connect to B and run:</p><pre class="crayon-plain-tag">mysql&gt; CREATE DATABASE new_db;</pre><p>Ooops! You&#8217;ve just made a big mistake: instead of creating the table on the master, you&#8217;ve just created it on the slave. But the change is easy to undo: run <code>DROP DATABASE</code> on B, followed by <code>CREATE DATABASE</code> on A.</p><p>Nobody will ever known your mistake and next time you&#8217;ll be more careful.</p><p>However with GTID-replication, this is another story: when you run a write statement on B, you create an associated GTID. And this associated GTID will be recorded forever (even if the binlog containing the transaction is purged at some point).</p><p>Now you can still undo the transaction but there is no way to undo the GTID. What you&#8217;ve created is called an errant transaction.</p><p>This minor mistake can have catastrophic consequences: say that 6 months later, B is promoted as the new master. Because of auto-positioning, the errant transaction will be sent to all slaves. But it&#8217;s very likely that the corresponding binlog has been purged, so B will be unable to send the errant transaction. As a result replication will be broken everywhere. Not nice&#8230;</p><h2>super_read_only can help</h2><p>Enter <code>super_read_only</code>. If it is enabled on all slaves, the above scenario won&#8217;t happen because the write on B will trigger an error and no GTID will be created.</p><p>With <code>super_read_only</code>, tools that were not reliable with GTID replication become reliable enough to be used again. For instance, MHA supports failover in a GTID-based setup but it doesn&#8217;t check errant transactions when failing over, making it risky to use with GTID replication. <code>super_read_only</code> makes MHA attractive again with GTID.</p><p>However note that <code>super_read_only</code> can&#8217;t prevent all errant transactions. The setting is dynamic so if you have privileged access, you can still disable <code>super_read_only</code>, create an errant transaction and enable it back. But at least it should avoid errant transactions that are created by accident.</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/08/super_read_only-gtid-replication/">super_read_only and GTID replication</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></content>
+        <link
+                rel="replies" type="text/html"
+                href="https://www.percona.com/blog/2015/09/08/super_read_only-gtid-replication/#comments"
+                thr:count="5"/>
+        <link
+                rel="replies" type="application/atom+xml"
+                href="https://www.percona.com/blog/2015/09/08/super_read_only-gtid-replication/feed/atom/"
+                thr:count="5"/>
+        <thr:total>5</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>Tom Diederich</name>
+            <uri>http://www.percona.com/forums/</uri>
+        </author>
+        <title
+                type="html"><![CDATA[Facebook&#8217;s Simon Martin on semi-synchronous replication]]></title>
+        <link
+                rel="alternate" type="text/html"
+                href="https://www.percona.com/blog/2015/09/04/facebooks-simon-martin-on-semi-synchronous-replication/"/>
+        <id>https://www.percona.com/blog/?p=31735</id>
+        <updated>2015-09-04T19:11:14Z</updated>
+        <published>2015-09-04T15:41:26Z</published>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Live"/>
+        <category
+                scheme="https://www.percona.com/blog" term="facebook"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Live Amsterdam"/>
+        <category
+                scheme="https://www.percona.com/blog" term="PerconaLive"/>
+        <category
+                scheme="https://www.percona.com/blog" term="semi-synchronous replication"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Simon Martin"/>
+        <summary
+                type="html"><![CDATA[<p>Facebook, with 1.49 billion monthly active users,  is one of the world’s top MySQL users. Simon Martin, a production engineer on Facebook&#8217;s MySQL Infrastructure team, has been working with MySQL for most of his career, ...</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/04/facebooks-simon-martin-on-semi-synchronous-replication/">Facebook&#8217;s Simon Martin on semi-synchronous replication</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></summary>
+        <content
+                type="html"
+                xml:base="https://www.percona.com/blog/2015/09/04/facebooks-simon-martin-on-semi-synchronous-replication/">
+            <![CDATA[<p><img
+class="alignright size-medium wp-image-21951" src="https://www.percona.com/blog/wp-content/uploads/2014/03/Facebook-Like-300x288.jpg" alt="Facebook’s Simon Martin to share semi-synchronous replication highs, lows" width="300" height="288" />Facebook, with 1.49 billion monthly active users,  is one of the world’s top MySQL users. Simon Martin, a production engineer on Facebook&#8217;s MySQL Infrastructure team, has been working with MySQL for most of his career, starting from 2 servers built out of spare parts and moving through to one of the largest deployments in the world.</p><p>Simon will be sharing some of the challenges Facebook has tackled as it rolled out semi-synchronous replication across the company&#8217;s different services at Percona Live Amsterdam on Sept. 22. His talk is aptly titled, &#8220;<a
+href="https://www.percona.com/live/europe-amsterdam-2015/sessions/highs-and-lows-semi-synchronous-replication" target="_blank">The highs and lows of semi-synchronous replication</a>.&#8221; I sat down, virtually, with Simon the other day. Our conversation is below, but first, as a special reward to my readers, save €20 on your Percona Live registration by entering promo code “BlogInterview” at <a
+href="https://www.percona.com/live/europe-amsterdam-2015/registration" target="_blank">registration</a>. Please feel free to share this offer! <img
+src="https://www.percona.com/blog/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p><hr
+/><p><strong>Tom:</strong> On a scale from 1-10, how important is MySQL to Facebook? And how does Facebook use MySQL?</p><p><strong>Simon:</strong> 10. We have a sophisticated in memory caching layer that will serve most requests, but MySQL is the persistent store for our graph. This means all your profile data, all your friends, likes and comments and the same for pages, events, places and the rest are stored permanently in MySQL.</p><p>We rely on MySQL in this role for 3 key features. Firstly as the final store it needs to not lose data, and InnoDB is well proven in this space. It needs to be highly available, MySQL and InnoDB are both very stable and we use replication as well to provide redundancy. Finally, even with extensive caching, it needs to be performant, both in latency and throughput, MySQL is both and we can use replication again to spread the read traffic to slaves in remote regions to help here too.</p><p><strong>Tom:</strong> What are some of the advantages of using Semi-Synchronous Replication at Facebook &#8212; and what are the challenges for deployments of that size when using it?</p><p><strong>Simon:</strong> That&#8217;s a big question, I could probably talk for 50 minutes on it! We started looking at Semi-Synchronous as a solution to reduce downtime when a MySQL master, or the host it&#8217;s on, crashes. Historically, if you are running a replicated environment and the master crashes, you are faced with a choice. You could promote another slave right away to reduce downtime, but it&#8217;s impossible to be sure that any of your slaves got all the transactions off the master. At Facebook we cannot lose people&#8217;s data, so we always chose to recover the master and re-connect the slaves before promoting if required. The downside is recovering InnoDB on a busy host can be slow, and if the host is rebooted it will be even slower, giving us many minutes of downtime.</p><p>Now that we run Semi-Synchronous replication it means that a master will not commit a transaction until at least one slave has acknowledged receipt of the binary logs for that transaction. With this running when a master crashes we can be sure our most up-to-date slave has all the data, so once it&#8217;s applied by the SQL thread we can promote safely without waiting for crash recovery.</p><p>There are many challenges in this though. Firstly there is performance, we now need a network round trip for each transaction, so we need the acknowledging slaves to be very close. Slaves in a different data hall, let-alone a different region, will be too slow.</p><p>We also need to pay attention to slave availability, previously not having a slave connected to a master for a short time was not a problem, now this will cause writes to stop and connections pile up, so we need to be much more careful about how we manage our replication topology. A target of 99.999% uptime for a service now requires the same SLA on slaves being available and connected locally to acknowledge the commits.</p><p>On top of this running at “webscale” adds a layer of requirements of its own. Like the rest of our environment everything needs to be automated, anything that requires a human is not going to scale. So our automation needs to respond to any failure and heal the system without intervention in any circumstance. An edge case that has even a tiny chance of occurring on a given day needs to be handled automatically, to keep our SLA and to stop our engineers constantly having to fix things.</p><p><strong>Tom:</strong> What are you looking forward to the most at this year&#8217;s conference (besides your own talk)?</p><p><strong>Simon:</strong> I always enjoy the keynotes, they don&#8217;t all seem to be announced yet but it&#8217;s a great way to get a state of the community update. I&#8217;ll certainly stop by “<a
+href="https://www.percona.com/live/europe-amsterdam-2015/sessions/binlog-servers-bookingcom" target="_blank">Binlog Servers at Booking.com</a>,” it sounds like they might be doing the same kind of things we are for Semi-Synchronous replication, so it&#8217;ll be great to compare ideas. I&#8217;ll also be looking at the talks on <a
+href="https://www.percona.com/live/europe-amsterdam-2015/search/node/MySQL%205.7" target="_blank">MySQL 5.7</a> to get the scoop on what cool new stuff is coming down the pipeline!</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/04/facebooks-simon-martin-on-semi-synchronous-replication/">Facebook&#8217;s Simon Martin on semi-synchronous replication</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></content>
+        <link
+                rel="replies" type="text/html"
+                href="https://www.percona.com/blog/2015/09/04/facebooks-simon-martin-on-semi-synchronous-replication/#comments"
+                thr:count="1"/>
+        <link
+                rel="replies" type="application/atom+xml"
+                href="https://www.percona.com/blog/2015/09/04/facebooks-simon-martin-on-semi-synchronous-replication/feed/atom/"
+                thr:count="1"/>
+        <thr:total>1</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>Andrew Moore</name>
+        </author>
+        <title
+                type="html"><![CDATA[Percona Toolkit and systemd]]></title>
+        <link
+                rel="alternate" type="text/html"
+                href="https://www.percona.com/blog/2015/09/03/percona-toolkit-systemd/"/>
+        <id>https://www.percona.com/blog/?p=31399</id>
+        <updated>2015-09-03T15:18:33Z</updated>
+        <published>2015-09-03T15:18:33Z</published>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Andrew Moore"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Lennart Poettering"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Toolkit"/>
+        <category
+                scheme="https://www.percona.com/blog" term="pt-kill"/>
+        <category
+                scheme="https://www.percona.com/blog" term="pt-stalk"/>
+        <category
+                scheme="https://www.percona.com/blog" term="systemd"/>
+        <summary
+                type="html"><![CDATA[<p>After some recent work with systemd I&#8217;ve realized it&#8217;s power and I can come clean that I am a fan. I realize that there are multitudes of posts out there with arguments both for and against ...</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/03/percona-toolkit-systemd/">Percona Toolkit and systemd</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></summary>
+        <content
+                type="html" xml:base="https://www.percona.com/blog/2015/09/03/percona-toolkit-systemd/"><![CDATA[<p>After some recent work with systemd I&#8217;ve realized it&#8217;s power and I can come clean that I am a fan. I realize that there are multitudes of posts out there with arguments both for and against <a
+rel="nofollow" href="http://www.freedesktop.org/wiki/Software/systemd/" rel="nofollow">systemd</a> but let&#8217;s look at some nice ways to have systemd provide us with (but not limited to) pt-kill-as-a-service.</p><p>This brief post introduces you to a systemd unit file and how we can leverage them to enable pt-kill at startup, have it start after mysqld and ensure that MySQL is running by using the mysql service as a dependency of pt-kill. By using systemd to handle this we don&#8217;t have to complicate matters by &#8216;monitoring the monitor&#8217; using hacky shell scripts, cron or utilities like monit.</p><p>So then, a quick primer on systemd, because lets face it, we&#8217;ve all been avoiding it. Systemd is not new but it made recent headlines in the Linux world due to some of the major distros announcing their intentions to migrate upcoming releases to systemd.</p><p>What is it? Well due to it&#8217;s depth it is best described as a suite of management daemons, libraries and tools that will replace the traditional init scripts. So essentially remember how you start a service, mount a volume or read the system logs&#8230;well start forgetting all of that because systemd is disrupting this space. With systemd comes some really neat tricks for administering your machines and I&#8217;m really only beginning to see the tip of this iceberg. There is admittedly a lot to learn with systemd but this should serve as pragmatic entrée.</p><h3>Systemd what? When did this happen?</h3><table
+style="margin: 10px auto 12px auto; border: 1px solid #FF8C1E; border-spacing: 10px; border-collapse: separate;" width="75%"><thead><tr><th
+tabindex="0" title="Sort descending" scope="col">Linux distribution</th><th
+tabindex="0" title="Sort ascending" scope="col">Date released as default</th></tr></thead><tbody><tr><td><a
+title="Arch Linux">Arch Linux</a></td><td><span
+style="display: none; speak: none;">000000002012-10-01-0000</span><span
+style="white-space: nowrap;">October 2012</span></td></tr><tr><td><a
+title="CoreOS">CoreOS</a></td><td><span
+style="display: none; speak: none;">000000002013-10-01-0000</span><span
+style="white-space: nowrap;">October 2013</span> (v94.0.0)</td></tr><tr><td><a
+title="Debian">Debian</a></td><td><span
+style="display: none; speak: none;">000000002015-04-01-0000</span><span
+style="white-space: nowrap;">April 2015</span> (v8 aka jessie)</td></tr><tr><td><a
+title="Fedora">Fedora</a></td><td><span
+style="display: none; speak: none;">000000002011-05-01-0000</span><span
+style="white-space: nowrap;">May 2011</span> (v15)</td></tr><tr><td><a
+title="Gentoo Linux">Gentoo Linux</a></td><td
+class="table-na" style="background: #ececec; color: grey; vertical-align: middle; font-size: smaller; text-align: center;">N/A</td></tr><tr><td><a
+title="Mageia">Mageia</a></td><td><span
+style="display: none; speak: none;">000000002012-05-01-0000</span><span
+style="white-space: nowrap;">May 2012</span> (v2.0)</td></tr><tr><td><a
+title="OpenSUSE">openSUSE</a></td><td><span
+style="display: none; speak: none;">000000002012-09-01-0000</span><span
+style="white-space: nowrap;">September 2012</span> (v12.2)</td></tr><tr><td><a
+title="Red Hat Enterprise Linux">Red Hat Enterprise Linux</a></td><td><span
+style="display: none; speak: none;">000000002014-06-01-0000</span><span
+style="white-space: nowrap;">June 2014</span> (v7.0)</td></tr><tr><td><a
+title="Slackware">Slackware</a></td><td
+class="table-na" style="background: #ececec; color: grey; vertical-align: middle; font-size: smaller; text-align: center;">N/A</td></tr><tr><td><a
+title="SUSE Linux Enterprise Server">SUSE Linux Enterprise Server</a></td><td><span
+style="display: none; speak: none;">000000002014-10-01-0000</span><span
+style="white-space: nowrap;">October 2014</span> (v12)</td></tr><tr><td><a
+title="Ubuntu">Ubuntu</a></td><td><span
+style="display: none; speak: none;">000000002015-04-01-0000</span><span
+style="white-space: nowrap;">April 2015</span> (v15.04)</td></tr></tbody><tfoot></tfoot></table><p>Lennart Poettering, the name frequently attached with systemd is seeking to modernize the most fundamental process(es) of the Linux startup system, bringing the paradigms of modern computing; concurrency, parallelism and efficiency. The dependency tree of processes and services is more intuitive and the structure of the underlying startup scripts are unified. I feel that the direction proposed by systemd is an evolutionary one which promotes consistency within the startup scripts enabling conventions that can be easier understood by a broader audience.</p><h3>Systemd and Percona Toolkit</h3><p>This post aims to show that we can rely on systemd to handle processes such as pt-kill, pt-stalk, and other daemonized scripts that we like to have running perpetually, are fired at startup and can be reinstated after failure.</p><p>The scenario is this; I want pt-kill to drop all sleeping connections from a certain application user, lets call them, &#8216;caffeinebob&#8217;, because they never close connections. Due to various reasons we can&#8217;t make changes in the application so we&#8217;re employing Percona Toolkit favourite, pt-kill, to do this for us. For convenience we want this result to persist across server restarts. In the olden days we might have some cron job that fires a shell script in combination with a sentinal file to ensure it&#8217;s running. I&#8217;m pretty sure that this kitty could be skinned many ways.</p><h3>The systemd Unit File</h3><p>After some research and testing, the below unit file will play nicely on a Centos 7 node with systemd at it&#8217;s core. In this example I am running Percona Server 5.6 installed using <a
+href="https://www.percona.com/doc/percona-server/5.5/installation/yum_repo.html">Percona&#8217;s yum repo</a> with the mysql.service unit file generated at installation. I suspect that there could be some systemd deviation with other MySQL variants however, this configuration is working for me.</p><pre class="crayon-plain-tag">[Unit]
+Description = pt-kill caffeinebob
+After=syslog.target mysql.service
+Requires=mysql.service
+[Service]
+Type = simple
+PIDFile = /var/run/ptkill.pid
+ExecStart = /usr/bin/pt-kill
+--daemonize
+--pid=/var/run/ptkill.pid
+--interval=5
+--defaults-file=/root/.my.cnf
+--log=/var/log/ptkill.log
+--match-user caffeinebob
+--busy-time 10
+--kill
+--print
+Restart=on-abort
+[Install]
+WantedBy=multi-user.target</pre><p>Let&#8217;s examine the above and see what we&#8217;re working with. Systemd unit files have various biologies. The example above is a simple Service unit file. This means we are enacting a process controlled and supervised by systemd. The significance of the <code>After</code> directive is that this service will not attempt startup until after syslog.target and mysql.service have been called. The <code>Required</code> directive is makes ptkill.service dependant on the mysql.service startup being successful.</p><p>The next part, the [Service] grouping, details the actions to be taken by the service. The <code><a
+rel="nofollow" href="http://www.freedesktop.org/software/systemd/man/systemd.service.html#Type=" rel="nofollow">Type</a></code> can be one of many but as it&#8217;s a simple call to a script I&#8217;ve used the <code>simple</code> type. We are describing the command and the handling of it. The <code>ExecStart</code> is evidently the pt-kill command that we would usually run from the shell prompt or from within a shell script. This is a very corse example because we can opt to parameterize the command with the assistance of an <a
+rel="nofollow" href="http://www.freedesktop.org/software/systemd/man/systemd.exec.html#EnvironmentFile=" rel="nofollow">Environment file</a>. Note the use of the <code>Restart</code> directive, used so that systemd can handle a reaction should a failure occur that interrupts the process.</p><p>Finally under the [Install] grouping we&#8217;re telling systemd that this service should startup on a multi user system, and could be thought of as runlevel 2 or 3 (Multiuser mode).</p><p>So providing that we&#8217;ve got all the relevant paths, users and dependencies in place, once you reboot your host, mysql.service should in order, initiate mysqld and when that dependency is met, systemd will initiate pt-kill with our desired parameters to cull connections that meet the criteria stipulated in our configuration. This means you rely on systemd to manage pt-kill for you and you don&#8217;t necessarily need to remember to start this or similar processes when you restart you node.</p><h3>Start up &amp; enable</h3><p>Now to envoke our service manually and add <a
+rel="nofollow" href="http://www.freedesktop.org/software/systemd/man/systemctl.html#enable%20NAME..." rel="nofollow">enable</a> it to work on start up we should run the following <a
+rel="nofollow" href="http://www.freedesktop.org/software/systemd/man/systemctl.html" rel="nofollow">systemctl</a> commands;</p><pre class="crayon-plain-tag">[moore@localhost ~]$ sudo systemctl start ptkill.service
+[moore@localhost ~]$ sudo systemctl enable ptkill.service</pre><p>No feedback but no errors so we can check the status of the service</p><pre class="crayon-plain-tag">[moore@localhost ~]$ sudo systemctl status ptkill -l
+ptkill.service - keep pt-kill persistent across restarts
+   Loaded: loaded (/etc/systemd/system/ptkill.service; enabled)
+   Active: <span style="color: #339966;">active (<strong>running</strong>)</span> since Wed 2015-08-12 02:39:13 BST; 1h 19min ago
+ Main PID: 2628 (perl)
+   CGroup: /system.slice/ptkill.service
+           └─2628 perl /usr/bin/pt-kill --daemonize --pid=/var/run/ptkill.pid --interval=5 --defaults-file=/root/.my.cnf --log=/var/log/ptkill.log --match-user caffeinebob --busy-time 10 --kill --print</pre><p>Perfect we can also instruct systemd to disable this and|or stop our service when the application is changed and caffeinebob close() all those open connections.</p><pre class="crayon-plain-tag">[moore@localhost ~]$ sudo systemctl stop ptkill.service
+[moore@localhost ~]$ sudo systemctl disable ptkill.service</pre><p>Now after successful implementation we see that our process is running delightfully;</p><pre class="crayon-plain-tag">[moore@localhost ~]$ ps -ef | grep pt-kill
+root      2547     1  0 02:37 ?        00:00:00 perl /usr/bin/pt-kill --daemonize --pid=/var/run/ptkill.pid --interval=5 --defaults-file=/root/.my.cnf --log=/var/log/ptkill.log --match-user caffeinebob --busy-time 10 --kill --print</pre><p></p><h3>Catch me if I fall</h3><p>Lets issue a kill signal to the process and observe it&#8217;s behaviour using <code>journalctl</code></p><pre class="crayon-plain-tag">[moore@localhost ~]$ sudo kill -SEGV 2547</pre><p>This will write similar entries into the system log;</p><pre class="crayon-plain-tag">[moore@localhost ~]$ sudo journalctl -xn -f
+Aug 12 02:39:13 localhost.localdomain sudo[2624]: moore : TTY=pts/1 ; PWD=/home/moore ; USER=root ; COMMAND=/bin/kill -SEGV 2547
+Aug 12 02:39:13 localhost.localdomain systemd[1]: ptkill.service: main process exited, code=killed, status=11/SEGV
+Aug 12 02:39:13 localhost.localdomain systemd[1]: Unit ptkill.service entered failed state.
+Aug 12 02:39:13 localhost.localdomain systemd[1]: ptkill.service holdoff time over, scheduling restart.
+Aug 12 02:39:13 localhost.localdomain systemd[1]: Stopping keep pt-kill persistent across restarts...
+-- Subject: Unit ptkill.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+--
+-- Unit ptkill.service has begun shutting down.
+Aug 12 02:39:13 localhost.localdomain systemd[1]: Starting keep pt-kill persistent across restarts...
+-- Subject: Unit ptkill.service has begun with start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+--
+-- Unit ptkill.service has begun starting up.
+Aug 12 02:39:13 localhost.localdomain systemd[1]: Started keep pt-kill persistent across restarts.
+-- Subject: Unit ptkill.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+--
+-- Unit ptkill.service has finished starting up.
+--
+-- The start-up result is done.</pre><p>Pt-kill flaps after the kill signal but systemd has been instructed to restart on failure so we don&#8217;t see <code>caffeinebob</code> saturate our processlist with sleeping connections.</p><p>Another bonus with this workflow is use within orchestration. Any standardized unit files can be propagated to your fleet of hosts with tools such as Ansible, Chef, Puppet or Saltstack.</p><h4>Closing note</h4><p>I&#8217;d love to hear from the pragmatists from the systemd world to understand if this approach can be improved or whether there are any flaws in this example unit file that would require addressing. This is very much a new-school of thought for me and feedback is both welcome and encouraged.</p><p>Thank you for your time, happy systemd-ing.</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/03/percona-toolkit-systemd/">Percona Toolkit and systemd</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></content>
+        <link
+                rel="replies" type="text/html"
+                href="https://www.percona.com/blog/2015/09/03/percona-toolkit-systemd/#comments" thr:count="2"/>
+        <link
+                rel="replies" type="application/atom+xml"
+                href="https://www.percona.com/blog/2015/09/03/percona-toolkit-systemd/feed/atom/" thr:count="2"/>
+        <thr:total>2</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>Hrvoje Matijakovic</name>
+        </author>
+        <title
+                type="html"><![CDATA[Percona Server 5.5.45-37.4 is now available]]></title>
+        <link
+                rel="alternate" type="text/html"
+                href="https://www.percona.com/blog/2015/09/02/percona-server-5-5-45-37-4-is-now-available/"/>
+        <id>https://www.percona.com/blog/?p=31709</id>
+        <updated>2015-09-02T14:36:08Z</updated>
+        <published>2015-09-02T14:36:08Z</published>
+        <category
+                scheme="https://www.percona.com/blog" term="Events and Announcements"/>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Server"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Software"/>
+        <summary
+                type="html"><![CDATA[<p>Percona is glad to announce the release of Percona Server 5.5.45-37.4 on September 2, 2015. Based on MySQL 5.5.45, including all the bug fixes in it, Percona Server 5.5.45-37.4 is now the current stable release ...</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/02/percona-server-5-5-45-37-4-is-now-available/">Percona Server 5.5.45-37.4 is now available</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></summary>
+        <content
+                type="html"
+                xml:base="https://www.percona.com/blog/2015/09/02/percona-server-5-5-45-37-4-is-now-available/">
+            <![CDATA[<p><a
+href="https://www.percona.com/blog/wp-content/uploads/2014/05/percona_server.jpeg"><img
+class="alignright size-thumbnail wp-image-22759" src="https://www.percona.com/blog/wp-content/uploads/2014/05/percona_server-150x150.jpeg" alt="Percona Server" width="150" height="150" /></a><br
+/> <em>Percona</em> is glad to announce the release of </a><em><a
+href="https://www.percona.com/software/percona-server">Percona Server</a></em> 5.5.45-37.4 on September 2, 2015. Based on <a
+rel="nofollow" href="http://dev.mysql.com/doc/relnotes/mysql/5.5/en/news-5-5-45.html" rel="nofollow">MySQL 5.5.45</a><a
+href="https://www.percona.com/blog/wp-content/uploads/2014/05/percona_server.jpeg"></a>, including all the bug fixes in it, <em>Percona Server</em> 5.5.45-37.4 is now the current stable release in the 5.5 series.</p><p><em>Percona Server</em> is open-source and free. Details of the release can be found in the <a
+rel="nofollow" href="https://launchpad.net/percona-server/+milestone/5.5.45-37.4" rel="nofollow">5.5.45-37.5 milestone</a> on Launchpad. Downloads are available <a
+href="https://www.percona.com/downloads/Percona-Server-5.5/">here</a> and from the <a
+href="https://www.percona.com/doc/percona-server/5.5/installation.html#installing-from-binaries">Percona Software Repositories</a>.</p><p><strong>Bugs Fixed:</strong></p><ul><li>Querying <code>INFORMATION_SCHEMA</code> <code><a
+href="https://www.percona.com/doc/percona-server/5.5/diagnostics/misc_info_schema_tables.html#GLOBAL_TEMPORARY_TABLES">GLOBAL_TEMPORARY_TABLES</a></code> table would crash threads working with internal temporary tables used by <code>ALTER TABLE</code>. Bug fixed <a
+rel="nofollow" rel="nofollow" href="https://bugs.launchpad.net/percona-server/+bug/1113388">#1113388</a>.</li><li><code>FLUSH INDEX_STATISTICS</code>/<code>FLUSH CHANGED_PAGE_BITMAPS</code> and <code>FLUSH USER_STATISTICS</code>/<code>RESET CHANGE_PAGE_BITMAPS</code> pairs of commands were inadvertently joined, i.e. issuing either command had the effect of both. The first pair, besides flushing both index statistics and changed page bitmaps, had the effect of <code>FLUSH INDEX_STATISTICS</code> requiring <code>SUPER</code> instead of <code>RELOAD</code> privilege. The second pair resulted in <code>FLUSH USER_STATISTICS</code> destroying changed page bitmaps. Bug fixed <a
+rel="nofollow" rel="nofollow" href="https://bugs.launchpad.net/percona-server/+bug/1472251">#1472251</a>.</li><li>If a new connection thread was created while a <code>SHOW PROCESSLIST</code> command or a <code>INFORMATION_SCHEMA.PROCESSLIST</code> query was in progress, it could have a negative <code>TIME_MS</code> value returned in the <code>PROCESSLIST</code> output. Bug fixed <a
+rel="nofollow" rel="nofollow" href="https://bugs.launchpad.net/percona-server/+bug/1379582">#1379582</a>.</li></ul><p>Other bugs fixed: <a
+rel="nofollow" rel="nofollow" href="https://bugs.launchpad.net/percona-server/+bug/768038">#768038</a> and <a
+rel="nofollow" rel="nofollow" href="https://bugs.launchpad.net/percona-server/+bug/1472256">#1472256</a>.</p><p>Release notes for <em>Percona Server</em> 5.5.45-37.4 are available in our <a
+href="https://www.percona.com/doc/percona-server/5.5/release-notes/Percona-Server-5.5.45-37.4.html">online documentation</a>. Bugs can be reported on the <a
+rel="nofollow" href="https://bugs.launchpad.net/percona-server/+filebug" rel="nofollow">launchpad bug tracker</a>.</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/02/percona-server-5-5-45-37-4-is-now-available/">Percona Server 5.5.45-37.4 is now available</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></content>
+        <link
+                rel="replies" type="text/html"
+                href="https://www.percona.com/blog/2015/09/02/percona-server-5-5-45-37-4-is-now-available/#comments"
+                thr:count="0"/>
+        <link
+                rel="replies" type="application/atom+xml"
+                href="https://www.percona.com/blog/2015/09/02/percona-server-5-5-45-37-4-is-now-available/feed/atom/"
+                thr:count="0"/>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>Tom Diederich</name>
+            <uri>http://www.percona.com/forums/</uri>
+        </author>
+        <title
+                type="html"><![CDATA[Booking.com&#8217;s Jean-François Gagné on Percona Live Amsterdam]]></title>
+        <link
+                rel="alternate" type="text/html"
+                href="https://www.percona.com/blog/2015/09/01/booking-dot-yeah-booking-coms-jean-francois-gagne-on-percona-live-amsterdam/"/>
+        <id>https://www.percona.com/blog/?p=31696</id>
+        <updated>2015-09-01T15:04:04Z</updated>
+        <published>2015-09-01T10:00:39Z</published>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Live"/>
+        <category
+                scheme="https://www.percona.com/blog" term="binlog"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Booking.com"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Jean-François Gagné"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona Live Amsterdam"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Primary"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Tom Diederich"/>
+        <summary
+                type="html"><![CDATA[<p>Booking.com, one of the world’s leading e-commerce companies, helps travels book nearly 1 million rooms per night. Established in 1996, Booking.com B.V. guarantees the best prices for any type of property, from small, family-run bed ...</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/01/booking-dot-yeah-booking-coms-jean-francois-gagne-on-percona-live-amsterdam/">Booking.com&#8217;s Jean-François Gagné on Percona Live Amsterdam</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></summary>
+        <content
+                type="html"
+                xml:base="https://www.percona.com/blog/2015/09/01/booking-dot-yeah-booking-coms-jean-francois-gagne-on-percona-live-amsterdam/">
+            <![CDATA[<p>Booking.com, one of the world’s leading e-commerce companies, helps travels book nearly 1 million rooms per night. Established in 1996, Booking.com B.V. guarantees the best prices for any type of property, from small, family-run bed and breakfasts to executive apartments and five-star luxury suites.</p><p>The travel website is also a dedicated contributor to the MySQL and Perl community. Other open source technologies include CentOS Linux, Nginx, python, puppet, Git and more.</p><p>A Diamond sponsor of Percona Live Amsterdam Sept. 21-23, you can meet the people who power Booking.com at booth 205. Enter promo code “BlogInterview” at<a
+href="https://www.percona.com/live/europe-amsterdam-2015/registration"> registration</a> to save €20!</p><p>In the meantime, meet Jean-François Gagné, a system engineer at Booking.com. He&#8217;ll be presenting a couple of talks: &#8220;<a
+href="https://www.percona.com/live/europe-amsterdam-2015/sessions/riding-binlog-deep-dissection-replication-stream">Riding the Binlog: an in Deep Dissection of the Replication Stream</a>&#8221; and &#8220;<a
+href="https://www.percona.com/live/europe-amsterdam-2015/sessions/binlog-servers-bookingcom">Binlog Servers at Booking.com</a>.&#8221;</p><hr
+/><p><b>Tom:</b> Hi Jean-François, in your session, &#8220;<a
+href="https://www.percona.com/live/europe-amsterdam-2015/sessions/riding-binlog-deep-dissection-replication-stream">Riding the Binlog: an in Deep Dissection of the Replication Stream</a>&#8220;, you talk about how we can think of the binary logs as a transport for a “Stream of Transactions”. What will be the top 3 things attendees will come away with following this 50-minute talk?</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/09/jfc.jpg"><img
+class="alignright wp-image-31711 size-medium" src="https://www.percona.com/blog/wp-content/uploads/2015/09/jfc-300x290.jpg" alt="" width="300" height="290" /></a></p><p><b>Jean-François: </b>Hi Tom, thanks for this opportunity to give a sneak peak of my talk.  The most important subject that will be discussed is that the binary logs evolves: by the usage of “log-slave-updates”, the stream can grow, shrink or morph.  Said in another way: the binary logs of a slave can be very different from the binary logs of the master, and this should be taken into account when relying on those (including when replicating using intermediate master and when promoting a slave as a new master using GTIDs).  We will also explore how the binary logs can be decomposed in sub-streams, or viewed as the multiplexing of many streams.  We will also look for de-multiplexing functions and the new possibilities that are opened with that.</p><p>&nbsp;</p><p><b>Tom: </b>Percona Live, starting with this conference, has a new venue and a broader theme – now encompassing, in addition to MySQL, MongoDB, NoSQL and data in the cloud. Your thoughts? And what do think is missing – what would you change (if anything)?</p><p><b>Jean-François:</b> I think you forget the best of all changes: going from a 2 day conference last year in London to a 3 day conference this year.  This will allow better knowledge exchange and I am very happy about that.  I think this event will be a success with a good balance of sessions focus on technologies and presentation about a specific use-case of those technologies.  If I had one wish: I would like to see more sessions about specific use-cases of NoSQL technologies with and in deep discussion about why they are a better choice than more traditional solutions: maybe more of those sessions will be submitted next year.</p><p>&nbsp;</p><p><b>Tom:</b> Which other session(s) are you most looking forward to besides your own?</p><p><b>Jean-François:</b> I will definitely attend the Facebook session about Semi-Synchronous Replication: it is very close to my interest, especially as Booking.com is thinking about using loss-less semi-sync replication in the future, and I look forward to hear war stories about this feature.  All sessions dissecting internals of a technology (InnoDB, TokuDB, RocksDB, …) will also have my attention.  Finally, it is always interesting to hear about how large companies are using databases, so I plan to attend the MySQL@Wikimedia session.</p><p>&nbsp;</p><p><b>Tom:</b> As a resident of Amsterdam, what are some of the must-do activities/sightseeing for those visiting for Percona Live from out of town?</p><p><b>Jean-François:</b> Seeing the city from a high point is impressive, and you will have the opportunity of enjoying that view from the Booking.com office at the<a
+rel="nofollow" href="https://www.eventbrite.com/e/community-dinner-bookingcom-tickets-17901675393" rel="nofollow"> Community Dinner</a>.  Also, I recommend finding a bike and discover the city pedaling (there are many renting shops, just ask Google).  From the conference venue, you can do a 70 minutes ride crossing three nice parks: the Westerpark, the Rembrandtpark and the Vondelpark &#8211;<a
+rel="nofollow" href="https://goo.gl/P13Mc7" rel="nofollow"> https://goo.gl/P13Mc7</a> &#8211; and you can discover the first of third park in a shorter ride (45 minutes).  If you feel a little more adventurous, I recommend a 90 minute ride South following the Amstel: once out of Amsterdam, you will have the water on one side at the level of the road, and the fields (<a
+rel="nofollow" href="https://en.wikipedia.org/wiki/Polder" rel="nofollow">Polder</a>) 3 meters below on the other side (<a
+rel="nofollow" href="https://goo.gl/OPDv5z" rel="nofollow">https://goo.gl/OPDv5z</a>).  This will allow you to see for yourself why this place is called the “Low Countries”.</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/09/01/booking-dot-yeah-booking-coms-jean-francois-gagne-on-percona-live-amsterdam/">Booking.com&#8217;s Jean-François Gagné on Percona Live Amsterdam</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></content>
+        <link
+                rel="replies" type="text/html"
+                href="https://www.percona.com/blog/2015/09/01/booking-dot-yeah-booking-coms-jean-francois-gagne-on-percona-live-amsterdam/#comments"
+                thr:count="0"/>
+        <link
+                rel="replies" type="application/atom+xml"
+                href="https://www.percona.com/blog/2015/09/01/booking-dot-yeah-booking-coms-jean-francois-gagne-on-percona-live-amsterdam/feed/atom/"
+                thr:count="0"/>
+        <thr:total>0</thr:total>
+    </entry>
+    <entry>
+        <author>
+            <name>Jay Janssen</name>
+            <uri>http://www.percona.com/</uri>
+        </author>
+        <title
+                type="html"><![CDATA[High-load clusters and desynchronized nodes on Percona XtraDB Cluster]]></title>
+        <link
+                rel="alternate" type="text/html"
+                href="https://www.percona.com/blog/2015/08/31/high-load-clusters-and-desynchronized-nodes-on-percona-xtradb-cluster/"/>
+        <id>https://www.percona.com/blog/?p=31559</id>
+        <updated>2015-08-30T20:03:26Z</updated>
+        <published>2015-08-31T10:00:03Z</published>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Percona XtraDB Cluster"/>
+        <category
+                scheme="https://www.percona.com/blog" term="desynchronized nodes"/>
+        <category
+                scheme="https://www.percona.com/blog" term="high-load clusters"/>
+        <category
+                scheme="https://www.percona.com/blog" term="Jay Janssen"/>
+        <category
+                scheme="https://www.percona.com/blog" term="MySQL Clustering"/>
+        <category
+                scheme="https://www.percona.com/blog" term="wsrep_local_recv_queue"/>
+        <summary
+                type="html"><![CDATA[<p>There can be a lot of confusion and lack of planning in Percona XtraDB Clusters in regards to nodes becoming desynchronized for various reasons.  This can happen a few ways: An IST or SST joining ...</p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/08/31/high-load-clusters-and-desynchronized-nodes-on-percona-xtradb-cluster/">High-load clusters and desynchronized nodes on Percona XtraDB Cluster</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></summary>
+        <content
+                type="html"
+                xml:base="https://www.percona.com/blog/2015/08/31/high-load-clusters-and-desynchronized-nodes-on-percona-xtradb-cluster/">
+            <![CDATA[<p>There can be a lot of confusion and lack of planning in Percona XtraDB Clusters in regards to nodes becoming desynchronized for various reasons.  This can happen a few ways:</p><ul><li>An IST or SST joining node <a
+href="https://www.percona.com/blog/2015/08/05/pxc-incremental-state-transfers-in-detail/">catching up after a state transfer</a> (Joined/Joining state)</li><li>Using <a
+href="https://www.percona.com/blog/2013/10/08/taking-backups-percona-xtradb-cluster-without-stalls-flow-control/">wsrep_desync for something like a backup</a></li><li>Executing a rolling-schema-upgrade using using wsrep_OSU_method=RSU</li></ul><p>When I say &#8220;desynchronized&#8221; I mean a node that is permitted to build up a potentially large wsrep_local_recv_queue while some operation is happening.  For example a node taking a backup would set wsrep_desync=ON during the backup and potentially fall behind replication some amount.</p><p>Some of these operations may completely block Galera from applying transactions, while others may simply increase load on the server enough that it falls behind and applies at a reduced rate.</p><p>In all the cases above, flow control is NOT used while the node cannot apply transactions, but it MAY be used while the node is recovering from the operation.  For an example of this, see my <a
+href="https://www.percona.com/blog/2015/08/05/pxc-incremental-state-transfers-in-detail/">last blog about IST</a>.</p><p>If a cluster is fairly busy, then the flow control that CAN happen when the above operations catch up MAY be detrimental to performance.</p><h1>Example setup</h1><p>Let us take my typical 3 node cluster with workload on node1.  We are taking a blocking backup of some kind on node3 so we are executing the following steps:</p><ol><li>node3&gt; set global wsrep_desync=ON;</li><li>Node3&#8217;s &#8220;backup&#8221; starts, this starts with FLUSH TABLES WITH READ LOCK;</li><li>Galera is paused on node3 and the wsrep_local_recv_queue grows some amount</li><li>Node3&#8217;s &#8220;backup&#8221; finishes, finishing with UNLOCK TABLES;</li><li>node3&gt; set global wsrep_desync=OFF;</li></ol><h1>During the backup</h1><p>This includes up through step 3 above.  My node1 is unaffected by the backup on node3, I can see it averaging 5-6k writesets(transactions) per second which it did before we began:</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.38.34-PM1.png"><img
+class="aligncenter size-full wp-image-31568" src="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.38.34-PM1.png" alt="Screen Shot 2015-08-19 at 2.38.34 PM" width="489" height="275" /></a></p><p>&nbsp;</p><p>node2 is also unaffected:</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.38.50-PM.png"><img
+class="aligncenter size-full wp-image-31569" src="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.38.50-PM.png" alt="Screen Shot 2015-08-19 at 2.38.50 PM" width="493" height="276" /></a></p><p>but node3 is not applying and its queue is building up:</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.39.04-PM.png"><img
+class="aligncenter size-full wp-image-31570" src="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.39.04-PM.png" alt="Screen Shot 2015-08-19 at 2.39.04 PM" width="493" height="275" /></a></p><h1>Unlock tables, still wsrep_desync=ON</h1><p>Let&#8217;s examine briefly what happens when node3 is permitted to start applying, but wsrep_desync stays enabled:</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.42.16-PM.png"><img
+class="aligncenter size-full wp-image-31571" src="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.42.16-PM.png" alt="Screen Shot 2015-08-19 at 2.42.16 PM" width="493" height="275" /></a></p><p>node1&#8217;s performance is pretty much the same, node3 is not using flow control yet. However, there is a problem:</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.43.13-PM.png"><img
+class="aligncenter size-full wp-image-31572" src="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.43.13-PM.png" alt="Screen Shot 2015-08-19 at 2.43.13 PM" width="491" height="275" /></a></p><p>It&#8217;s hard to notice, but node3 is NOT catching up, instead it is falling further behind!  We have potentially created a situation where node3 may never catch up.</p><p>The PXC nodes were close enough to the red-line of performance that node3 can only apply just about as fast (and somewhat slower until it heats up a bit) as new transactions are coming into node1.</p><p>This represents a serious concern in PXC capacity planning:</p><blockquote><p><strong>Nodes do not only need to be fast enough to handle normal workload, but also to catch up after maintenance operations or failures cause them to fall behind.</strong></p></blockquote><p>Experienced MySQL DBA&#8217;s will realize this isn&#8217;t all that different than Master/Slave replication.</p><h1>Flow Control as a way to recovery</h1><p>So here&#8217;s the trick:  if we turn off wsrep_desync on node3 now, node3 will use flow control <strong>if and only if the incoming replication exceeds node3&#8217;s apply rate.  </strong>This gives node3 a good chance of catching up, but the tradeoff is reducing write throughput of the cluster.  Let&#8217;s see what this looks like in context with all of our steps.  wsrep_desync is turned off at the peak of the replication queue size on node3, around 12:20PM:</p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.47.12-PM.png"><img
+class="aligncenter size-full wp-image-31574" src="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.47.12-PM.png" alt="Screen Shot 2015-08-19 at 2.47.12 PM" width="493" height="274" /></a></p><p><a
+href="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.48.07-PM.png"><img
+class="aligncenter size-full wp-image-31575" src="https://www.percona.com/blog/wp-content/uploads/2015/08/Screen-Shot-2015-08-19-at-2.48.07-PM.png" alt="Screen Shot 2015-08-19 at 2.48.07 PM" width="490" height="271" /></a></p><p>So at the moment node3 starts utilizing flow control to prevent falling further behind, our write throughput (in this specific environment and workload) is reduced by approximately 1/3rd (YMMV).   The cluster will remain in this state until node3 catches up and returns to the &#8216;Synced&#8217; state.  This catchup is still happening as I write this post, almost 4 hours after it started and will likely take another hour or two to complete.</p><p>I can see a more realtime representation of this by using <a
+rel="nofollow" href="https://travis-ci.org/jayjanssen/myq-tools" rel="nofollow">myq_status</a> on node1, summarizing every minute:</p><pre class="crayon-plain-tag">[root@node1 ~]# myq_status -i 1m wsrep
+mycluster / node1 (idx: 1) / Galera 3.11(ra0189ab)
+         Cluster  Node       Outbound      Inbound       FlowC     Conflct Gcache     Appl
+    time P cnf  # stat laten msgs data que msgs data que pause snt lcf bfa   ist  idx  %ef
+19:58:47 P   5  3 Sync 0.9ms 3128 2.0M   0   27 213b   0 25.4s   0   0   0 3003k  16k  62%
+19:59:47 P   5  3 Sync 1.1ms 3200 2.1M   0   31 248b   0 18.8s   0   0   0 3003k  16k  62%
+20:00:47 P   5  3 Sync 0.9ms 3378 2.2M  32   27 217b   0 26.0s   0   0   0 3003k  16k  62%
+20:01:47 P   5  3 Sync 0.9ms 3662 2.4M  32   33 266b   0 18.9s   0   0   0 3003k  16k  62%
+20:02:47 P   5  3 Sync 0.9ms 3340 2.2M  32   27 215b   0 27.2s   0   0   0 3003k  16k  62%
+20:03:47 P   5  3 Sync 0.9ms 3193 2.1M   0   27 215b   0 25.6s   0   0   0 3003k  16k  62%
+20:04:47 P   5  3 Sync 0.9ms 3009 1.9M  12   28 224b   0 22.8s   0   0   0 3003k  16k  62%
+20:05:47 P   5  3 Sync 0.9ms 3437 2.2M   0   27 218b   0 23.9s   0   0   0 3003k  16k  62%
+20:06:47 P   5  3 Sync 0.9ms 3319 2.1M   7   28 220b   0 24.2s   0   0   0 3003k  16k  62%
+20:07:47 P   5  3 Sync 1.0ms 3388 2.2M  16   31 251b   0 22.6s   0   0   0 3003k  16k  62%
+20:08:47 P   5  3 Sync 1.1ms 3695 2.4M  19   39 312b   0 13.9s   0   0   0 3003k  16k  62%
+20:09:47 P   5  3 Sync 0.9ms 3293 2.1M   0   26 211b   0 26.2s   0   0   0 3003k  16k  62%</pre><p>This reports around 20-25 seconds of flow control every minute, which is consistent with that ~1/3rd of performance reduction we see in the graphs above.</p><p>Watching node3 the same way proves it is sending the flow control (FlowC snt):</p><pre class="crayon-plain-tag">mycluster / node3 (idx: 2) / Galera 3.11(ra0189ab)
+         Cluster  Node       Outbound      Inbound       FlowC     Conflct Gcache     Appl
+    time P cnf  # stat laten msgs data que msgs data que pause snt lcf bfa   ist  idx  %ef
+17:38:09 P   5  3 Dono 0.8ms    0   0b   0 4434 2.8M 16m 25.2s  31   0   0 18634  16k  80%
+17:39:09 P   5  3 Dono 1.3ms    0   0b   1 5040 3.2M 16m 22.1s  29   0   0 37497  16k  80%
+17:40:09 P   5  3 Dono 1.4ms    0   0b   0 4506 2.9M 16m 21.0s  31   0   0 16674  16k  80%
+17:41:09 P   5  3 Dono 0.9ms    0   0b   0 5274 3.4M 16m 16.4s  27   0   0 22134  16k  80%
+17:42:09 P   5  3 Dono 0.9ms    0   0b   0 4826 3.1M 16m 19.8s  26   0   0 16386  16k  80%
+17:43:09 P   5  3 Jned 0.9ms    0   0b   0 4957 3.2M 16m 18.7s  28   0   0 83677  16k  80%
+17:44:09 P   5  3 Jned 0.9ms    0   0b   0 3693 2.4M 16m 27.2s  30   0   0  131k  16k  80%
+17:45:09 P   5  3 Jned 0.9ms    0   0b   0 4151 2.7M 16m 26.3s  34   0   0  185k  16k  80%
+17:46:09 P   5  3 Jned 1.5ms    0   0b   0 4420 2.8M 16m 25.0s  30   0   0  245k  16k  80%
+17:47:09 P   5  3 Jned 1.3ms    0   0b   1 4806 3.1M 16m 21.0s  27   0   0  310k  16k  80%</pre><p>There are a lot of flow control messages (around 30) per minute.  This is a lot of ON/OFF toggles of flow control where writes are briefly delayed rather than a steady &#8220;you can&#8217;t write&#8221; for 20 seconds straight.</p><p>It also interestingly spends a long time in the Donor/Desynced state (even though wsrep_desync was turned OFF hours before) and then moves to the Joined state (this has the <a
+href="https://www.percona.com/blog/2015/08/05/pxc-incremental-state-transfers-in-detail/">same meaning as during an IST</a>).</p><h1>Does it matter?</h1><p>As always, it depends.</p><p>If these are web requests and suddenly the database can only handle ~66% of the traffic, that&#8217;s likely a problem, but maybe it just slows down the website somewhat.  I want to emphasize that WRITES are what is affected here.  Reads on any and all nodes should be normal (though you probably don&#8217;t want to read from node3 since it is so far behind).</p><p>If this were some queue processing that had reduced throughput, I&#8217;d expect it to possibly catch up later</p><p>This can only be answered for your application, but the takeaways for me are:</p><ul><li>Don&#8217;t underestimate your capacity requirements</li><li>Being at the redline normally means you are well past the redline for abnormal events.</li><li>Plan for maintenance and failure recoveries</li><li>Where possible, build queuing into your workflows so diminished throughput in your architecture doesn&#8217;t generate failures.</li></ul><p>Happy clustering!</p><p><em>Graphs in this post courtesy of <a
+rel="nofollow" href="https://vividcortex.com/" rel="nofollow">VividCortex</a>.</em></p><p>The post <a
+rel="nofollow" href="https://www.percona.com/blog/2015/08/31/high-load-clusters-and-desynchronized-nodes-on-percona-xtradb-cluster/">High-load clusters and desynchronized nodes on Percona XtraDB Cluster</a> appeared first on <a
+rel="nofollow" href="https://www.percona.com/blog">MySQL Performance Blog</a>.</p> ]]></content>
+        <link
+                rel="replies" type="text/html"
+                href="https://www.percona.com/blog/2015/08/31/high-load-clusters-and-desynchronized-nodes-on-percona-xtradb-cluster/#comments"
+                thr:count="0"/>
+        <link
+                rel="replies" type="application/atom+xml"
+                href="https://www.percona.com/blog/2015/08/31/high-load-clusters-and-desynchronized-nodes-on-percona-xtradb-cluster/feed/atom/"
+                thr:count="0"/>
+        <thr:total>0</thr:total>
+    </entry>
+</feed>
+        <!-- Dynamic page generated in 1.192 seconds. -->
+        <!-- Cached page generated by WP-Super-Cache on 2015-09-11 10:30:25 -->

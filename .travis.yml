@@ -6,7 +6,7 @@ go:
   - 1.5.1
 
 install:
-  - go get golang.org/x/text
-  - go get golang.org/x/net
+  - go get -d golang.org/x/text
+  - go get -d golang.org/x/net
 
 script: go test -v

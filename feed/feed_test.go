@@ -6,7 +6,6 @@ package feed_test
 
 import (
 	"io/ioutil"
-	"fmt"
 	"testing"
 	"pull/feed"
 )
@@ -23,12 +22,12 @@ func TestParseFeed(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
-	fmt.Println(rss.Title, rss.Link, rss.ItemList[0].PubDate)
+	t.Log(rss.Title, rss.Link, rss.ItemList[0].PubDate)
 	rss, err = feed.ParseFeedContent(atom1)
 	if err != nil {
 		t.Error(err)
 	}
-	fmt.Println(rss.Title, rss.Link, rss.ItemList[0].PubDate)
+	t.Log(rss.Title, rss.Link)
 }
 
 func TestFeedBurner(t *testing.T) {
@@ -36,12 +35,12 @@ func TestFeedBurner(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
-	fmt.Println(rss.Title, rss.Link, rss.ItemList[0].PubDate)
+	t.Log(rss.Title, rss.Link, rss.ItemList[0].PubDate)
 }
 func TestParseOPML(t *testing.T) {
 	opml, err := feed.ParseOPMLContent(opml)
 	if err != nil {
 		t.Error(err)
 	}
-	fmt.Println(opml.Head.Title)
+	t.Log(opml.Head.Title)
 }

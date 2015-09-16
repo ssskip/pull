@@ -10,6 +10,8 @@ import (
 	"html/template"
 	"errors"
 	"golang.org/x/net/html/charset"
+	"golang.org/x/text/encoding/simplifiedchinese"
+	"golang.org/x/text/transform"
 	"bytes"
 	"io"
 )
@@ -147,6 +149,10 @@ func atom1ToRss2(a Atom1) Rss2 {
 func parseXML(content []byte, v interface{}) error {
 	d := xml.NewDecoder(bytes.NewReader(content))
 	d.CharsetReader = func(s string, r io.Reader) (io.Reader, error) {
+		//converts GBK to UTF-8.
+		if s == "GBK" {
+			return transform.NewReader(r, simplifiedchinese.GB18030.NewDecoder()), nil
+		}
 		return charset.NewReader(r, s)
 	}
 	err := d.Decode(v)

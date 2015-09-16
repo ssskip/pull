@@ -6,6 +6,8 @@ go:
   - 1.5.1
 
 install:
+  - golang.org/x/text/encoding
+  - golang.org/x/text/transform
   - go get golang.org/x/net/html
 
 script: go test -v ./...
